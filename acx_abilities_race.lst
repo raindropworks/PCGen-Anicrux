@@ -1,0 +1,43 @@
+SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/sera	SOURCEDATE:2019-04
+#Source version before α-190417
+
+# ==============================
+# RACE ABILITIES
+# ==============================
+
+# ------------------------------
+# Canid
+# ------------------------------
+
+###Block: Racial Abilities
+# Ability Name						Category of Ability	Define						Ability																Source Page
+Racial Traits ~ Canid					CATEGORY:Internal																										SOURCEPAGE:p.4
+CATEGORY=Internal|Racial Traits ~ Canid.MOD					DEFINE:Canid_ReplaceAbilityScores|0		ABILITY:Canid Racial Trait|AUTOMATIC|Canid ~ Ability Scores|PREVAREQ:Canid_ReplaceAbilityScores,0
+CATEGORY=Internal|Racial Traits ~ Canid.MOD					DEFINE:Canid_ReplaceType|0			ABILITY:Canid Racial Trait|AUTOMATIC|Canid ~ Type|PREVAREQ:Canid_ReplaceType,0
+CATEGORY=Internal|Racial Traits ~ Canid.MOD					DEFINE:Canid_ReplaceSize|0			ABILITY:Canid Racial Trait|AUTOMATIC|Canid ~ Size|PREVAREQ:Canid_ReplaceSize,0
+CATEGORY=Internal|Racial Traits ~ Canid.MOD					DEFINE:Canid_ReplaceSpeed|0			ABILITY:Canid Racial Trait|AUTOMATIC|Canid ~ Speed|PREVAREQ:Canid_ReplaceSpeed,0
+CATEGORY=Internal|Racial Traits ~ Canid.MOD					DEFINE:Canid_ReplaceVision|0			ABILITY:Canid Racial Trait|AUTOMATIC|Canid ~ Vision|PREVAREQ:Canid_ReplaceVision,0
+CATEGORY=Internal|Racial Traits ~ Canid.MOD					DEFINE:Canid_ReplaceBetrayalByTail|0	ABILITY:Canid Racial Trait|AUTOMATIC|Canid ~ Betrayal by Tail|PREVAREQ:Canid_ReplaceBetrayalByTail,0
+CATEGORY=Internal|Racial Traits ~ Canid.MOD					DEFINE:Canid_ReplaceBite|0			ABILITY:Canid Racial Trait|AUTOMATIC|Canid ~ Bite|PREVAREQ:Canid_ReplaceBite,0
+CATEGORY=Internal|Racial Traits ~ Canid.MOD					DEFINE:Canid_ReplaceCorneredFury|0		ABILITY:Canid Racial Trait|AUTOMATIC|Canid ~ Cornered Fury|PREVAREQ:Canid_ReplaceCorneredFury,0
+CATEGORY=Internal|Racial Traits ~ Canid.MOD					DEFINE:Canid_ReplaceFleetFooted|0		ABILITY:Canid Racial Trait|AUTOMATIC|Canid ~ Fleet-Footed|PREVAREQ:Canid_ReplaceFleetFooted,0
+CATEGORY=Internal|Racial Traits ~ Canid.MOD					DEFINE:Canid_ReplaceQuickReactions|0	ABILITY:Canid Racial Trait|AUTOMATIC|Canid ~ Quick Reactions|PREVAREQ:Canid_ReplaceQuickReactions,0
+CATEGORY=Internal|Racial Traits ~ Canid.MOD					DEFINE:Canid_ReplaceScent|0			ABILITY:Canid Racial Trait|AUTOMATIC|Canid ~ Scent|PREVAREQ:Canid_ReplaceScent,0
+CATEGORY=Internal|Racial Traits ~ Canid.MOD					DEFINE:Canid_ReplaceSprinter|0		ABILITY:Canid Racial Trait|AUTOMATIC|Canid ~ Sprinter|PREVAREQ:Canid_ReplaceSprinter,0
+CATEGORY=Internal|Racial Traits ~ Canid.MOD					DEFINE:Canid_ReplaceLanguages|0		ABILITY:Canid Racial Trait|AUTOMATIC|Canid ~ Languages|PREVAREQ:Canid_ReplaceLanguages,0
+
+###Block: Default Racial Traits
+# Ability Name							Unique Key				Category of Ability		Type																		Description																													Template					Auto Language		Ability							Combat bonus					Bonus to skill				Stat bonus																			Weapon prof. bonus			Vision			Source Page		Aspects
++2 Strength, +2 Dexterity, +2 Wisdom, -2 Constitution	KEY:Canid ~ Ability Scores	CATEGORY:Special Ability	TYPE:RacialTraits.Canid Racial Trait.Racial Ability Scores									DESC:Canids are strong and fast, with a deep connection with the world around them.																																																BONUS:STAT|STR|2|TYPE=Racial	BONUS:STAT|DEX|2|TYPE=Racial	BONUS:STAT|WIS|2|TYPE=Racial	BONUS:STAT|CON|-2|TYPE=Racial											SOURCEPAGE:p.4
+Canid									KEY:Canid ~ Type			CATEGORY:Special Ability	TYPE:RacialTraits.Canid Racial Trait.Canid Racial Default.Racial Type							DESC:Canids are humanoids with the canid subtype.																																																																																			SOURCEPAGE:p.4
+Medium								KEY:Canid ~ Size			CATEGORY:Special Ability	TYPE:RacialTraits.Canid Racial Trait.Canid Racial Default.Racial Size							DESC:Canids are Medium creatures and have no bonuses or penalties due to their size.																																																																													SOURCEPAGE:p.4
+Normal Speed							KEY:Canid ~ Speed			CATEGORY:Special Ability	TYPE:RacialTraits.Canid Racial Trait.Canid Racial Default.Racial Speed							DESC:Canids have a base speed of 30 feet.																																																																																					SOURCEPAGE:p.4
+Low-Light Vision							KEY:Canid ~ Vision		CATEGORY:Special Ability	TYPE:RacialTraits.Canid Racial Trait.Canid Racial Default.SpecialQuality.Extraordinary.Racial Vision.Vision	DESC:Canids can see twice as far as humans in conditions of dim light.																																																																												VISION:Low-Light Vision	SOURCEPAGE:p.5	ASPECT:Vision|Low-Light Vision
+Betrayal by Tail							KEY:Canid ~ Betrayal by Tail	CATEGORY:Special Ability	TYPE:RacialTraits.Canid Racial Trait.Canid Racial Default.SpecialQuality						DESC:Canids have difficulty keeping their tails from exposing their true emotions, and take a -4 penalty on Bluff checks.																																			BONUS:SKILL|Bluff|-4|TYPE=Racial																															SOURCEPAGE:p.4
+Bite									KEY:Canid ~ Bite			CATEGORY:Special Ability	TYPE:RacialTraits.Canid Racial Trait.Canid Racial Default.SpecialQuality						DESC:Canids have strong, sharp teeth, and have a natural bite attack that deals 1d4 points of damage.																								ABILITY:Internal|AUTOMATIC|Bite																																				BONUS:WEAPONPROF=Bite|DAMAGESIZE|-1					SOURCEPAGE:p.4
+Cornered Fury							KEY:Canid ~ Cornered Fury	CATEGORY:Special Ability	TYPE:RacialTraits.Canid Racial Trait.Canid Racial Default.SpecialQuality						DESC:Whenever a canid is reduced to half its hit points or fewer and has no conscious ally within 30 feet, it gains a +2 racial bonus on melee attack rolls and to Armor Class.																																																														SOURCEPAGE:p.4	ASPECT:CombatBonus|+2 racial bonus on melee attack rolls and to AC when at half hp or fewer with no conscious ally within 30 feet.
+Fleet-Footed							KEY:Canid ~ Fleet-Footed	CATEGORY:Special Ability	TYPE:RacialTraits.Canid Racial Trait.Canid Racial Default.SpecialQuality						DESC:Canids receive Run as a bonus feat at 1st level and a +2 racial bonus on initiative checks. This stacks with the bonus granted by Improved Initiative.															ABILITY:Feat|AUTOMATIC|Run				BONUS:COMBAT|INITIATIVE|2|TYPE=Racial																																					SOURCEPAGE:p.4
+Quick Reactions							KEY:Canid ~ Quick Reactions	CATEGORY:Special Ability	TYPE:RacialTraits.Canid Racial Trait.Canid Racial Default.SpecialQuality						DESC:Canids receive Improved Initiative as a bonus feat at 1st level.																													ABILITY:Feat|AUTOMATIC|Improved Initiative																																												SOURCEPAGE:p.4
+Scent									KEY:Canid ~ Scent			CATEGORY:Special Ability	TYPE:RacialTraits.Canid Racial Trait.Canid Racial Default.									DESC:Canids gain the scent ability.																																			ABILITY:Special Ability|AUTOMATIC|Scent																																													SOURCEPAGE:p.5
+Sprinter								KEY:Canid ~ Sprinter		CATEGORY:Special Ability	TYPE:RacialTraits.Canid Racial Trait.Canid Racial Default.SpecialQuality						DESC:Canids gain a +10 foot racial bonus to their speed when using the charge, run, or withdraw action.																																																																										SOURCEPAGE:p.5	ASPECT:CombatBonus|+10 feet racial bonus to speed when using the charge, run, or withdraw action.
+Languages								KEY:Canid ~ Languages		CATEGORY:Special Ability	TYPE:RacialTraits.Canid Racial Trait.Canid Racial Default.Racial Language						DESC:Canids begin play speaking Common and Canid. Canids with high Intelligence scores can choose any languages they want (except secret languages, such as Druidic).			TEMPLATE:Race Bonus Language ~ All	AUTO:LANG|Common|Canid																																																				SOURCEPAGE:p.4
