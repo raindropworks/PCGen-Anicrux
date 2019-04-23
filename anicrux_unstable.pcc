@@ -21,5 +21,5 @@ INFOTEXT:The Anicruian Codex, A guide to the world of Anicrux.  Latest version a
 ABILITY:acx_abilities_race.lst
 ABILITYCATEGORY:acx_abilitycategories.lst
 KIT:acx_kits.lst
-LANGUAGE:acx_races.lst
+LANGUAGE:acx_languages.lst
 RACE:acx_races.lst
