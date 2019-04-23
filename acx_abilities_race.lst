@@ -58,9 +58,7 @@ CATEGORY=Internal|Racial Traits ~ Langomorph.MOD	DEFINE:Langomorph_ReplaceSprint
 CATEGORY=Internal|Racial Traits ~ Langomorph.MOD	DEFINE:Langomorph_ReplaceLanguages|0		ABILITY:Langomorph Racial Trait|AUTOMATIC|Langomorph ~ Languages|PREVAREQ:Langomorph_ReplaceLanguages,0
 CATEGORY=Internal|Racial Traits ~ Langomorph.MOD	DEFINE:Langomorph_ReplaceSaves|0			ABILITY:Langomorph Racial Trait|AUTOMATIC|Langomorph ~ Lucky|PREVAREQ:Langomorph_ReplaceSaves,0
 CATEGORY=Internal|Racial Traits ~ Langomorph.MOD	DEFINE:Langomorph_ReplaceJump|0				ABILITY:Langomorph Racial Trait|AUTOMATIC|Langomorph ~ Jumper|PREVAREQ:Langomorph_ReplaceJump,0
-
-#seducer
-#Bond to the land
+CATEGORY=Internal|Racial Traits ~ Langomorph.MOD	DEFINE:Langomorph_ReplaceCorneredFury|0		ABILITY:Langomorph Racial Trait|AUTOMATIC|Langomorph ~ Cornered Fury|PREVAREQ:Canid_ReplaceCorneredFury,0
 
 ###Block: Default Racial Traits
 # Ability Name													Unique Key						Category of Ability				Type																												Description																																																Template/Auto Language/Ability/Combat bonus/Bonus to skill/Stat bonus/Weapon prof. bonus/Vision															Source Page		Aspects
@@ -73,3 +71,4 @@ Sprinter													KEY:Langomorph ~ Sprinter		CATEGORY:Special Ability	TYPE:Ra
 Languages													KEY:Langomorph ~ Languages		CATEGORY:Special Ability	TYPE:RacialTraits.Langomorph Racial Trait.Langomorph Racial Default.Racial Language								DESC:Langomorphs begin play speaking Common and Lapine.  Furthermore, members of this race with high Intelligence scores can choose any languages they want (except secret languages, such as Druidic).	TEMPLATE:Race Bonus Language ~ All	AUTO:LANG|Common|Lapine																			SOURCEPAGE:p.5
 Lucky														KEY:Langomorph ~ Lucky			CATEGORY:Special Ability	TYPE:RacialTraits.Langomorph Racial Trait.Langomorph Racial Default.SpecialQuality								DESC:Langomorphs are rumored to, like their feral forebears, have lucky feet.  They gain a +2 racial bonus on all saving throws.																		BONUS:SAVE|ALL|2																													SOURCEPAGE:p.6
 Jumper														KEY:Langomorph ~ Jumper			CATEGORY:Special Ability	TYPE:RacialTraits.Langomorph Racial Trait.Langomorph Racial Default.SpecialQuality								DESC:Langomorphs use their powerful legs to jump better than average.  They are always considered to have a running start when making Acrobatics checks to jump.																																											SOURCEPAGE:p.6
+Cornered Fury												KEY:Langomorph ~ Cornered Fury	CATEGORY:Special Ability	TYPE:RacialTraits.Langomorph Racial Trait.Langomorph Racial Default.SpecialQuality								DESC:Whenever a langomorph is reduced to half its hit points or fewer and has no conscious ally within 30 feet, it gains a +2 racial bonus on melee attack rolls and to Armor Class.																																						SOURCEPAGE:p.6	ASPECT:CombatBonus|+2 racial bonus on melee attack rolls and to AC when at half hp or fewer with no conscious ally within 30 feet.
