@@ -2,4 +2,5 @@
 #Source version before α-190417
 
 ###Block: Racial Traits Categories
-ABILITYCATEGORY:Canid Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Canid Racial Trait		PLURAL:Canid Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Canid Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Canid Racial Trait			PLURAL:Canid Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Langomorph Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Langomorph Racial Trait	PLURAL:Langomorph Racial Traits	DISPLAYLOCATION:Racial Abilities
