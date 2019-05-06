@@ -14,9 +14,12 @@ SOURCESHORT:ACX
 SOURCEWEB:https://puddle.zone/sera/
 SOURCEDATE:2019-04
 ISOGL:YES
-COPYRIGHT:Puddle Zone Printing and Technology, Heather-Lynne Van Wilde, 2019
+COPYRIGHT:Puddle Zone Printing and Technology, Sera de Noir, 2019
 
 INFOTEXT:The Anicruian Codex, A guide to the world of Anicrux.  Latest version available at https://puddle.zone/sera/ - Unstable, use for testing only
+
+#Do Not Remove Comment
+#EXTRAFILE:OGL.txt
 
 ABILITY:acx_abilities_race.lst
 ABILITYCATEGORY:acx_abilitycategories.lst
