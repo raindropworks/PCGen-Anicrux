@@ -1,6 +1,8 @@
 # PCGen Anicrux
 
 Work in Progress PCGen Data Set to Add information from The Anicruian Codex and The Dark Codes as homebrew in PCGen.
+Requirements:
+PCGen v6.08.00 RC4 to RC6 (tested on RC4, 5 and 6, not tested on v6.09.00)
 
 Current Status
 
