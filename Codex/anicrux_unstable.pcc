@@ -21,6 +21,7 @@ INFOTEXT:The Anicruian Codex, A guide to the world of Anicrux.  Latest version a
 #Do Not Remove Comment
 #EXTRAFILE:OGL.txt
 
+ABILITY:acx_abilities.lst
 ABILITY:acx_abilities_race.lst
 ABILITYCATEGORY:acx_abilitycategories.lst
 BIOSET:acx_biosettings.lst
