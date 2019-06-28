@@ -22,5 +22,7 @@ INFOTEXT:The Anicruian Codex, A guide to the world of Anicrux.  Latest version a
 #EXTRAFILE:OGL.txt
 
 KIT:acx_kits.lst
+TEMPLATE:acx_templates.lst
+LANGUAGE:acx_languages.lst
 #LANGUAGE:acx_races.lst
 #RACE:acx_races.lst

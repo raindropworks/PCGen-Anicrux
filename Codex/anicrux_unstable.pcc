@@ -28,3 +28,4 @@ BIOSET:acx_biosettings.lst
 KIT:acx_kits.lst
 LANGUAGE:acx_languages.lst
 RACE:acx_races.lst
+TEMPLATE:acx_templates.lst
