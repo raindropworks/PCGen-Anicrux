@@ -25,7 +25,7 @@ ABILITY:acx_abilities.lst
 ABILITY:acx_abilities_race.lst
 ABILITYCATEGORY:acx_abilitycategories.lst
 BIOSET:acx_biosettings.lst
-KIT:acx_kits.lst
+#KIT:acx_kits.lst
 LANGUAGE:acx_languages.lst
 RACE:acx_races.lst
-TEMPLATE:acx_templates.lst
+#TEMPLATE:acx_templates.lst

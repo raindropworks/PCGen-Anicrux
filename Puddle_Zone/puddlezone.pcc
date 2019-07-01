@@ -1,28 +1,28 @@
 # CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
-CAMPAIGN:Anicrux
+CAMPAIGN:N/A
 GAMEMODE:Pathfinder
 RANK:9
 GENRE:Fantasy
 BOOKTYPE:Homebrew
-SETTING:Anicrux
+SETTING:N/A
 TYPE:Homebrew.PathfinderHomebrew
-PUBNAMELONG:The Anicruian Codex
-PUBNAMESHORT:Anicrux
+PUBNAMELONG:Puddle Zone Compatability Patches
+PUBNAMESHORT:Puddle Zone
 PUBNAMEWEB:https://puddle.zone/sera/
-SOURCELONG:The Anicruian Codex
-SOURCESHORT:ACX
+SOURCELONG:Puddle Zone Compatability Patches
+SOURCESHORT:PDZ
 SOURCEWEB:https://puddle.zone/sera/
 SOURCEDATE:2019-04
 ISOGL:YES
 COPYRIGHT:Puddle Zone Printing and Technology, Sera de Noir, 2019
 
-INFOTEXT:The Anicruian Codex, A guide to the world of Anicrux.  Latest version available at https://puddle.zone/sera/ (This version is pre-α.)
+INFOTEXT:Various tweaks and patches for Pathfinder games played by members of Puddle Zone that may not be included in any of their sourcebooks.
 
 #Do Not Remove Comment
 #EXTRAFILE:OGL.txt
 
-#KIT:acx_kits.lst
-#TEMPLATE:acx_templates.lst
-LANGUAGE:acx_languages.lst
+KIT:pdz_kits.lst
+TEMPLATE:pdz_templates.lst
+#LANGUAGE:acx_languages.lst
 #LANGUAGE:acx_races.lst
 #RACE:acx_races.lst

@@ -1,5 +1,5 @@
 # CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
-SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/sera	SOURCEDATE:2019-04
+SOURCELONG:Puddle Zone Compatability Patches	SOURCESHORT:PDZ	SOURCEWEB:https://puddle.zone/sera	SOURCEDATE:2019-04
 
 
 #	Ninja Monkey	HITDIE:12	CR:2	DR:15/Epic	LEVELADJUSTMENT:2	RACESUBTYPE:Extraplanar|Evil	DEFINE:NinjaMonkeyEvilAura|0	BONUS:VAR|NinjaMonkeyEvilAura|TL	ABILITY:FEAT|AUTOMATIC|Dodge	PREALIGN:LE
