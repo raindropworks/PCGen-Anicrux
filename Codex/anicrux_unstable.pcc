@@ -26,3 +26,4 @@ ABILITYCATEGORY:acx_abilitycategories.lst
 BIOSET:acx_biosettings.lst
 LANGUAGE:acx_languages.lst
 RACE:acx_races.lst
+SPELL:acx_spells.lst
