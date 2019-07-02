@@ -24,5 +24,3 @@ INFOTEXT:Various tweaks and patches for Pathfinder games played by members of Pu
 KIT:pdz_kits.lst
 TEMPLATE:pdz_templates.lst
 ABILITY:pdz_abilities.lst
-#LANGUAGE:acx_races.lst
-#RACE:acx_races.lst
