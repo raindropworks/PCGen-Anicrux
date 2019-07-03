@@ -21,4 +21,14 @@ INFOTEXT:The Anicruian Codex, A guide to the world of Anicrux.  Latest version a
 #Do Not Remove Comment
 #EXTRAFILE:OGL.txt
 
-LANGUAGE:acx_languages.lst
+#External PCC files
+PCC:@/homebrew/PCGen-Anicrux/Puddle_Zone/puddlezone.pcc
+
+#Core LST files
+ABILITY:@/homebrew/PCGen-Anicrux/Codex/acx_abilities_race.lst
+ABILITYCATEGORY:@/homebrew/PCGen-Anicrux/Codex/acx_abilitycategories.lst
+BIOSET:@/homebrew/PCGen-Anicrux/Codex/acx_biosettings.lst
+EQUIPMENT:@/homebrew/PCGen-Anicrux/Codex/acx_equipment_general.lst
+LANGUAGE:@/homebrew/PCGen-Anicrux/Codex/acx_languages.lst
+RACE:@/homebrew/PCGen-Anicrux/Codex/acx_races.lst
+SPELL:@/homebrew/PCGen-Anicrux/Codex/acx_spells.lst

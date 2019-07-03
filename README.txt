@@ -10,19 +10,23 @@ Current Status
 
 Compatability Tweaks    🗹 (No Version)
 
-The Anicruian Codex
-Feature                 Stable          Unstable
-Races
-    Canids              𐄂 (No Version)  🗹 (α-190422)
-    Langomorphs         𐄂 (No Version)  🗹 (α-190422)
-    Merfoxes            𐄂 (No Version)  𐄂 (No Version)
-    Sciuridae           𐄂 (No Version)  𐄂 (No Version)
-Items                   𐄂 (No Version)  𐄂 (No Version)
-Arms and Armor
-    Armor               𐄂 (No Version)  𐄂 (No Version)
-    Weapons             𐄂 (No Version)  𐄂 (No Version)
-Magic					𐄂 (No Version)  𐄂 (No Version)
-    
-The Dark Codes
-Feature                 Stable          Unstable
-Magic                   𐄂 (No Version)  𐄂 (No Version)
+The Anicruian Codex		𐄂
+	- Races				𐄂
+		- Canids		🗹
+		- Langomorphs	🗹
+		- Merfoxes		𐄂
+		- Sciuridae		𐄂
+	- Items				𐄂
+		- Relics/Magic	𐄂	(𐄂 Bangles of Telepathic Bonding, 𐄂 Pocketwatch of the Perfect Moment, 𐄂 Pouch of Coin Shot)
+		- Bunny Uniform	𐄂
+		- Maid Uniform	🗹
+	- Armor				𐄂
+	- Magic				🗹
+
+# To use this repot
+Load the data into your PCGen's /data/homebrew folder (either by copying the folder or using a symlink)
+Open PCGen, and under the Advanced tab for loading sources, find the needed file under Homebrew
+
+- Puddle Zone - This will add just the base compatability tweaks
+- Anicrux - This will load the compatability tweaks as well as the Codex (This is the option you're more likely to use)
+- Anicrux Unstable - Only used for testing.  Will load Puddle Zone, Anicrux, and any test files loaded in the unstable PCC file.
