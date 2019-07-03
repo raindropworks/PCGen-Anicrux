@@ -1,0 +1,65 @@
+# CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/sera	SOURCEDATE:2019-04
+#Source version before α-190417
+
+#insert your data here
+
+#Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
+#your own data. Remember not to put the '#' at the start of your own data, as PCGen would see it as a comment only.
+#
+#When Running PCGen, you can select "Help > Documentation > List Files > List File Tag Index > Equipment File tags" to find
+#out how the tags in the races file work. Some of the tags used here are global tags. You will see an alphabetical listing
+#of all PCGen tags to the left of the documentation window. You can find the global tags there as well.
+#
+#
+#
+#
+#####1st Example
+
+#Dagger		PROFICIENCY:WEAPON|Dagger		TYPE:Weapon.Resizable.Melee.Finesseable.Ranged.Thrown.Simple.Standard.Piercing.Slashing.Dagger		COST:2	WT:1		CRITMULT:x2		CRITRANGE:2		DAMAGE:1d4		EQMOD:STEEL		WIELD:Light		RANGE:10	SIZE:M
+
+#####
+#
+#####2nd Example
+
+#Saddlebags		TYPE:Goods.Container.Mount.Resizable		CONTAINS:UNLIM|Any=UNLIM	COST:4	WT:8		SOURCEPAGE:Equipment
+
+#####
+#The Dagger is an Example of a weapon, while the Saddlebags is an item that is set up to be used as a container for other
+#items. The first field is the item's name and is required.
+#
+#The PROFICIENCY tag is only used with weapons, armor and shields. It tells PCGen what Weapon Proficiency name to use from the weapprofs.lst, armorprofs.lst or shieldprofs.lst file.
+#
+#The TYPE tag is used for many filtering and PRExxx tags. TYPE:Armor items should also have the type of SLOTS it uses. This
+#is usually TYPE:Suit. TYPE:Container is a special type name. It activates the CONTAINS tag in the item. Every TYPE:Weapon
+#item must be also have either TYPE:Melee or TYPE:Ranged (TYPE:Weapon.Melee.Foo). TYPE:Double is a special weapon tag. It
+#activates three ALTxxx tags for the second head statistics.
+#
+#The CONTAINS tag is used to define how much and what a container can hold. Any object with CONTAINS must also be TYPE:Container
+#for the CONTAINS tag to be activated.
+#
+#The COST tag sets the cost of the item.
+#
+#The WT tag is holding the item's weight.
+#
+#The SOURCEPAGE tag can be used to hold a reference to where you can find the item. This will be displayed in PCGen.
+#
+#CRITMULT, CRITRANGE, DAMAGE, WIELD, and RANGE are tags that are associated with weapons. They can be used to set up the
+#various weapon stats.
+
+#The SIZE tag determines the size of the Item. F=Fine, D=Diminutive, T=Tiny, S=Small, M=Medium, L=Large, H=Huge, G=Gargantuan,
+#C=Colossal.
+
+#The EQMOD tag calls an equipment modifier to be applied to the base item before looking at other tags. You will need to use
+#the equipment modifier's KEY with this tag, not it's name.
+
+###Block: Clothing
+# Equipment Name						Unique Key										SORTKEY					Type										Cost			Weight	Source Page		Special Property																																																																																											Description
+Maid Uniform, Masterwork			KEY:Uniform (Maid Masterwork)					SORTKEY:Uniform (Maid)		TYPE:Goods.Clothing.Resizable			COST:3		WT:5	SOURCEPAGE:p9	SPROP:+2 competence bonus on the following trained Profession skills: baker, brewer, clerk, cook, courtesean, driver, gardener, herbalist, innkeeper, merchant, midwife and scribe.																																																		DESC:A standard plain dress and broad pinafore apron, likely with surdy shoes and a mob cap.  This instills some confidence in the ability to perform tasks.
+Maid Uniform						KEY:Uniform (Maid)								SORTKEY:Uniform (Maid)		TYPE:Goods.Clothing.Resizable.Starting	COST:0.2	WT:5	SOURCEPAGE:p9	SPROP:+1 competence bonus on the following trained Profession skills: baker, brewer, clerk, cook, courtesean, driver, gardener, herbalist, innkeeper, merchant, midwife and scribe.																																																		DESC:A standard plain dress and broad pinafore apron, likely with surdy shoes and a mob cap.  This instills some confidence in the ability to perform tasks.
+Fancy Maid Uniform					KEY:Uniform (Maid Fancy)						SORTKEY:Uniform (Maid)		TYPE:Goods.Clothing.Resizable			COST:5		WT:8	SOURCEPAGE:p9	SPROP:+4 competence bonus on the following trained Profession skills: baker, brewer, clerk, cook, courtesean, driver, gardener, herbalist, innkeeper, merchant, midwife and scribe.  Bonuses increased an additional +2 (total +6) for langomorph, catfolk, canid and sciuridae races.																									DESC:A much fancier, and some say flirtier uniform, this uniform frequently features a shorter skirt, stiffened petticoats and a ruffled headband.  Aprons are either pinafore or half-apron style.
+Fancy Maid Uniform, Masterwork		KEY:Uniform (Maid Fancy Masterwork)				SORTKEY:Uniform (Maid)		TYPE:Goods.Clothing.Resizable			COST:50		WT:8	SOURCEPAGE:p9	SPROP:+6 competence bonus on the following trained Profession skills: baker, brewer, clerk, cook, courtesean, driver, gardener, herbalist, innkeeper, merchant, midwife and scribe.  Bonuses increased an additional +2 (total +8) for langomorph, catfolk, canid and sciuridae races.																									DESC:A much fancier, and some say flirtier uniform, this uniform frequently features a shorter skirt, stiffened petticoats and a ruffled headband.  Aprons are either pinafore or half-apron style.
+Skimpy Maid Uniform					KEY:Uniform (Maid Skimpy)						SORTKEY:Uniform (Maid)		TYPE:Goods.Clothing.Resizable			COST:3		WT:1	SOURCEPAGE:p9	SPROP:+3 competence bonus on the following trained Profession skills: baker, brewer, clerk, cook, courtesean, driver, gardener, herbalist, innkeeper, merchant, midwife and scribe.  Bonuses increased an additional +1 (total +4) for langomorph, catfolk, canid and sciuridae races.  If not near a beach (GM's discretion), all above classes except cortesean are a -1 penalty.		DESC:Frequently called a maidkini, this uniform is only one in name, and is more of a combination costume and bikini swimsuit.  It's considered ill taste to wear one for most jobs commonly, but courteseans and maids working near beaches can use them to great effect.
+Skimpy Maid Uniform, Masterwork		KEY:Uniform (Maid Skimpy Masterwork)			SORTKEY:Uniform (Maid)		TYPE:Goods.Clothing.Resizable			COST:8		WT:1	SOURCEPAGE:p9	SPROP:+5 competence bonus on the following trained Profession skills: baker, brewer, clerk, cook, courtesean, driver, gardener, herbalist, innkeeper, merchant, midwife and scribe.  Bonuses increased an additional +1 (total +6) for langomorph, catfolk, canid and sciuridae races.  If not near a beach (GM's discretion), all above classes except cortesean are a -1 penalty.		DESC:Frequently called a maidkini, this uniform is only one in name, and is more of a combination costume and bikini swimsuit.  It's considered ill taste to wear one for most jobs commonly, but courteseans and maids working near beaches can use them to great effect.
+Formal Maid Uniform					KEY:Uniform (Maid Formal)						SORTKEY:Uniform (Maid)		TYPE:Goods.Clothing.Resizable			COST:40		WT:15	SOURCEPAGE:p9	SPROP:+5 competence bonus on the following trained Profession skills: baker, brewer, clerk, cook, courtesean, driver, gardener, herbalist, innkeeper, merchant, midwife and scribe.  Also gain +1 circumstance bonus on Knowledge(Nobility) checks.																																		DESC:Generally considered the pinnacle of poise, decorum and capability of anyone who serves, these uniforms are frequently worn by head maids and maids for nobility.  The nomral uniform is a full length, very fine material uniform, with a full pinafore apron and fancy headpiece.
+Formal Maid Uniform, Masterwork		KEY:Uniform (Maid Formal Masterwork)			SORTKEY:Uniform (Maid)		TYPE:Goods.Clothing.Resizable			COST:200	WT:15	SOURCEPAGE:p9	SPROP:+8 competence bonus on the following trained Profession skills: baker, brewer, clerk, cook, courtesean, driver, gardener, herbalist, innkeeper, merchant, midwife and scribe.  Also gain +1 circumstance bonus on Knowledge(Nobility) checks.																																		DESC:Generally considered the pinnacle of poise, decorum and capability of anyone who serves, these uniforms are frequently worn by head maids and maids for nobility.  The nomral uniform is a full length, very fine material uniform, with a full pinafore apron and fancy headpiece.
