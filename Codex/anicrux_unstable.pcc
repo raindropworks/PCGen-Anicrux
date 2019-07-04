@@ -24,3 +24,6 @@ INFOTEXT:The Anicruian Codex, A guide to the world of Anicrux.  Latest version a
 #External PCC files
 PCC:@/homebrew/PCGen-Anicrux/Puddle_Zone/puddlezone.pcc
 PCC:@/homebrew/PCGen-Anicrux/anicrux.pcc
+
+EQUIPMENT:@/homebrew/PCGen-Anicrux/Codex/u_acx_equipment_general.lst
+EQUIPMOD:@/homebrew/PCGen-Anicrux/Codex/u_acx_equipmods.lst
