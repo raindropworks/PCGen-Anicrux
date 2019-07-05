@@ -30,6 +30,7 @@ ABILITY:@/homebrew/PCGen-Anicrux/Codex/acx_abilities_race.lst
 ABILITYCATEGORY:@/homebrew/PCGen-Anicrux/Codex/acx_abilitycategories.lst
 BIOSET:@/homebrew/PCGen-Anicrux/Codex/acx_biosettings.lst
 EQUIPMENT:@/homebrew/PCGen-Anicrux/Codex/acx_equipment_general.lst
+EQUIPMOD:@/homebrew/PCGen-Anicrux/Codex/acx_equipmods.lst
 LANGUAGE:@/homebrew/PCGen-Anicrux/Codex/acx_languages.lst
 RACE:@/homebrew/PCGen-Anicrux/Codex/acx_races.lst
 SPELL:@/homebrew/PCGen-Anicrux/Codex/acx_spells.lst

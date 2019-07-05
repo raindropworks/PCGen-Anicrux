@@ -1,5 +1,6 @@
 # CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
-SOURCELONG:My Pathfinder Campaign	SOURCESHORT:MPC	SOURCEWEB:http://www.mpcwebsite.com	SOURCEDATE:2008-01
+SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/sera	SOURCEDATE:2019-04
+#Source version before α-190417
 
 #insert your data here
 
@@ -67,12 +68,30 @@ SOURCELONG:My Pathfinder Campaign	SOURCESHORT:MPC	SOURCEWEB:http://www.mpcwebsit
 #of them, look in the List File Tag Index under the topic "Bonus tags".
 #
 #The ASSIGNTOALL tag is for double weapons only. If this tag is present then the modifiers will be applied to both heads.
-Spell Effect (Single Use/Use Activated)	KEY:Special Ability ~ Spell Effect / Single Use.MOD		TYPE:Watch
-#Spell Effect (50 Charges/Spell Trigger)	KEY:Special Ability ~ Spell Effect / Spell Trigger
-#Spell Effect (Command Word)			KEY:Special Ability ~ Spell Effect / Command Word
-#Spell Effect (Use Activated)			KEY:Special Ability ~ Spell Effect / Use Activated
-#Spell Effect (Continuous/Standard spell duration)			KEY:Special Ability ~ Spell Effect / Continuous / Hour per Level
-#Spell Effect (Continuous/Spell duration measured in rounds)	KEY:Special Ability ~ Spell Effect / Continuous / Round per Level		
-##Spell Effect (Continuous/Spell duration 1 minute/level)		KEY:Special Ability ~ Spell Effect / Continuous / Minute per Level
-#Spell Effect (Continuous/Spell duration 10 minutes/level)		KEY:Special Ability ~ Spell Effect / Continuous / 10 Minutes per Level
-#Spell Effect (Continuous/Spell duration 24-hours or more)		KEY:Special Ability ~ Spell Effect / Continuous / Day per Level
+
+#Watch materials
+#Modifications
+Material ~ Darkleaf Cloth ~ Item.MOD	!PRETYPE:1,Watch
+Material ~ Steel.MOD	!PRETYPE:1,Watch
+Material ~ Bone.MOD		!PRETYPE:1,Watch
+Material ~ Bronze.MOD		!PRETYPE:1,Watch
+Material ~ Gold.MOD		!PRETYPE:1,Watch
+Material ~ Ironwood.MOD		!PRETYPE:1,Watch
+Material ~ Living Steel ~ Item.MOD		!PRETYPE:1,Watch
+Material ~ Mithril ~ Weapon / Item.MOD		!PRETYPE:1,Watch
+
+#Materials
+#Steel			KEY:Material ~ Steel ~ Watch	NAMEOPT:NOTHING	TYPE:BaseMaterial.Mundane.Tools.Goods	COST:0	VISIBLE:QUALIFY	ITYPE:Metal		PREMULT:1,[PRETYPE:1,EQMOD=Material ~ Steel],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Wooden	!PRETYPE:1,Artisan,Spell Component
+
+Steel		KEY:Material ~ Steel ~ Watch	NAMEOPT:NOTHING	TYPE:BaseMaterial.Mundane.Watch	COST:0	VISIBLE:QUALIFY	ITYPE:Metal		PREMULT:1,[PRETYPE:1,EQMOD=Material ~ Steel],[!PRETYPE:1,EQMODTYPE=Mundane]	!PRETYPE:1,Wooden	!PRETYPE:1,Artisan,Spell Component	SPROP:Winding five minutes a day will give 24 hours of accurate timekeeping.	SOURCEPAGE:p11
+Adamantine		KEY:Material ~ Adamantine ~ Watch		FORMATCAT:FRONT	NAMEOPT:NORMAL		TYPE:BaseMaterial.MasterworkQuality.Watch	COST:50		VISIBLE:QUALIFY	ITYPE:Metal.Adamantine.Masterwork		REPLACES:Material ~ Steel ~ Watch							SOURCEPAGE:p.11	PRETYPE:1,Metal		SPROP:Winding five minutes will give 72 hours of accurate timekeeping.		ASSIGNTOALL:NO
+Bone		KEY:Material ~ Bone ~ Watch		NAMEOPT:NORMAL		TYPE:BaseMaterial.Mundane.Watch	COST:25	VISIBLE:QUALIFY	ITYPE:Bone	SOURCEPAGE:p.11	PRETYPE:1,Metal,Wooden	!PRETYPE:1,Artisan,Spell Component		SPROP:Like a steel watch, but the casing is replaced with intricately carved bone
+Bronze		KEY:Material ~ Bronze ~ Watch		NAMEOPT:NORMAL		TYPE:BaseMaterial.Mundane.Watch		COST:(BASECOST)*-.5		VISIBLE:QUALIFY		ITYPE:Bronze		SOURCEPAGE:p.11		PRETYPE:1,Metal		!PRETYPE:1,Artisan,Spell Component		SPROP: Winding five minutes will give 12 hours of accurate timekeeping.
+Gold		KEY:Material ~ Gold ~ Watch		NAMEOPT:NORMAL		TYPE:BaseMaterial.Mundane.Watch		COST:(BASECOST)*9		VISIBLE:QUALIFY		ITYPE:Gold		SOURCEPAGE:p.11		PRETYPE:1,Metal		!PRETYPE:1,Artisan,Spell Component	SPROP:Winding five minutes a day will give 24 hours of accurate timekeeping.
+Ironwood		KEY:Material ~ Ironwood ~ Watch		TYPE:BaseMaterial.Mundane.Watch		COST:1750		VISIBLE:QUALIFY		ITYPE:Wood		PRETYPE:1,Metal,Wooden		SOURCEPAGE:p.11		SPROP:Suitable for druids, winding fiving minutes a day will give 24 hours of accurate timekeeping.
+Living Steel		KEY:Material ~ Living Steel ~ Watch		TYPE:BaseMaterial.Watch		COST:WT*250		ITYPE:LivingSteel		SOURCEPAGE:p.11		PRETYPE:1,Metal			!PRETYPE:1,Artisan,Spell Component		SPROP:This watch, once wound, is self-winding and should never need to be rewound again.
+Mithral		KEY:Material ~ Mithral ~ Watch	FORMATCAT:FRONT		NAMEOPT:NORMAL		TYPE:BaseMaterial.MasterworkQuality.Watch	COST:WT*500		VISIBLE:QUALIFY		ITYPE:Metal.Mithral.Masterwork		SOURCEPAGE:p.11		PRETYPE:1,Metal		WT=.5		SPROP:Winding five minutes a day will give 24 hours of accurate timekeeping.
+
+#Watch Spell Effect Abilities
+Special Ability ~ Spell Effect / Single Use.MOD		TYPE:Watch		SPROP:When the spell is used, the watch continues functioning and may be enchanted with a new spell.
+Special Ability ~ Spell Effect / Spell Trigger.MOD		TYPE:Watch		SPROP:When all charges have been used, the strain breaks the mechanics inside the watch, disabling it.
