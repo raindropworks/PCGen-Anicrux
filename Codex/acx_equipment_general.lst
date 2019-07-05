@@ -67,3 +67,5 @@ Formal Maid Uniform, Masterwork		KEY:Uniform (Maid Formal Masterwork)			SORTKEY:
 #BLOCK Equipment
 
 Pocket Watch.MOD	TYPE:Watch	EQMOD:Material ~ Steel ~ Watch
+
+Pocketwatch of the Perfect Moment		TYPE:Magic.Wondrous.Watch.GreaterMinor		COST:59950		WT:1		SOURCEPAGE:p.10		EQMOD:Material ~ Adamantine ~ Watch	SPROP:On a successful Use Magic Device check (DC 15) the owner can cast Haste on themselves for 10 rounds (useable 6x/day).  Five times a day, with a successful Use Magic Device check (DC 20) the owner can caste Momento Dagger as a spell-like action, treating the player's character level in place of caster level (player level 6 required for Momento Dagger).  When using the watch to cast Momento Dagger, on a successful check, the wielder may activate Haste as a free action, using one of the 6 daily slots.
