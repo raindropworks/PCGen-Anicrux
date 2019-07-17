@@ -12,7 +12,7 @@ Items:
 	Portable Kitchen - Done
 	Pocketwatch of the Perfect Moment - Done
 	Pocketwatches - Done
-	Speedloader
+	Speedloader - Done
 Arms and Armor:
 	Light Maid Armor
 	Medium Maid Armor

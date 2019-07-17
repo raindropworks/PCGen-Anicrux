@@ -80,3 +80,5 @@ Cloak of Wands		TYPE:Magic.Wonderous.LesserMinor.Shoulders.Cloak.Container		COST
 Pocketwatch of the Perfect Moment		TYPE:Magic.Wondrous.Watch.GreaterMinor		COST:59950		WT:1		SOURCEPAGE:p.10		EQMOD:Material ~ Adamantine ~ Watch	SPROP:On a successful Use Magic Device check (DC 15) the owner can cast Haste on themselves for 10 rounds (useable 6x/day).  Five times a day, with a successful Use Magic Device check (DC 20) the owner can caste Momento Dagger as a spell-like action, treating the player's character level in place of caster level (player level 6 required for Momento Dagger).  When using the watch to cast Momento Dagger, on a successful check, the wielder may activate Haste as a free action, using one of the 6 daily slots.
 
 Portable Kitchen		TYPE:Magic.Wondrous.GreaterMinor.Goods.Tools.Artisan		COST:30000		WT:30		SOURCEPAGE:p.9		SPROP:Well prepared meals can grant a morale bonus on saving throws.
+
+Speedloader		TYPE:Tools.Firearm.Revolver		COST:25		WT:.2		SOURCEPAGE:p.11		SPROP:Allows a revolver to be reloaded as a move action, as if the user had the Rapid Reload (combat) feat.
