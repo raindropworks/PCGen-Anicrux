@@ -9,7 +9,7 @@ Items:
 	Bunnygirl costume - Done
 	Cloak of Wands - Done
 	Maid Uniforms - Done
-	Portable Kitchen
+	Portable Kitchen - Done
 	Pocketwatch of the Perfect Moment - Done
 	Pocketwatches - Done
 	Speedloader
