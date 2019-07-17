@@ -5,8 +5,8 @@ Races:
 	Merfoxes
 	Sciuridae
 Items:
-	Bangles of Telepathic Bonding
-	Bunnygirl costume
+	Bangles of Telepathic Bonding - Done
+	Bunnygirl costume - Done
 	Cloak of Wands
 	Maid Uniforms - Done
 	Portable Kitchen
