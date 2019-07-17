@@ -7,7 +7,7 @@ Races:
 Items:
 	Bangles of Telepathic Bonding - Done
 	Bunnygirl costume - Done
-	Cloak of Wands
+	Cloak of Wands - Done
 	Maid Uniforms - Done
 	Portable Kitchen
 	Pocketwatch of the Perfect Moment - Done
