@@ -11,7 +11,7 @@ Items:
 	Maid Uniforms - Done
 	Portable Kitchen
 	Pocketwatch of the Perfect Moment - Done
-	Pocketwatches - BUGGED - Issue #1
+	Pocketwatches - Done
 	Speedloader
 Arms and Armor:
 	Light Maid Armor
