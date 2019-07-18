@@ -14,9 +14,9 @@ Items:
 	Pocketwatches - Done
 	Speedloader - Done
 Arms and Armor:
-	Light Maid Armor
-	Medium Maid Armor
-	Heavy Maid Armor
+	Light Maid Armor - Done
+	Medium Maid Armor - Done
+	Heavy Maid Armor - Done
 	Bolg Gauntlet
 	Erion
 Magic:
