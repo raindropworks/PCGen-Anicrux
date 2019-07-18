@@ -17,7 +17,7 @@ Arms and Armor:
 	Light Maid Armor - Done
 	Medium Maid Armor - Done
 	Heavy Maid Armor - Done
-	Bolg Gauntlet
-	Erion
+	Giantbeater Gauntlet - Done
+	Erion - Not implemented
 Magic:
 	Momento Dagger - Done
