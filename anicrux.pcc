@@ -23,15 +23,15 @@ INFOTEXT:The Anicruian Codex, A guide to the world of Anicrux.  Latest version a
 
 #External PCC files
 PRECAMPAIGN:1,INCLUDES=Adventurer's Armory
-PCC:@/homebrew/PCGen-Anicrux/Puddle_Zone/puddlezone.pcc
+PCC:Puddle_Zone/puddlezone.pcc
 
 #Core LST files
-ABILITY:@/homebrew/PCGen-Anicrux/Codex/acx_abilities_race.lst
-ABILITYCATEGORY:@/homebrew/PCGen-Anicrux/Codex/acx_abilitycategories.lst
-BIOSET:@/homebrew/PCGen-Anicrux/Codex/acx_biosettings.lst
-EQUIPMENT:@/homebrew/PCGen-Anicrux/Codex/acx_equip_arms_armor.lst
-EQUIPMENT:@/homebrew/PCGen-Anicrux/Codex/acx_equipment_general.lst
-EQUIPMOD:@/homebrew/PCGen-Anicrux/Codex/acx_equipmods.lst
-LANGUAGE:@/homebrew/PCGen-Anicrux/Codex/acx_languages.lst
-RACE:@/homebrew/PCGen-Anicrux/Codex/acx_races.lst
-SPELL:@/homebrew/PCGen-Anicrux/Codex/acx_spells.lst
+ABILITY:Codex/acx_abilities_race.lst
+ABILITYCATEGORY:Codex/acx_abilitycategories.lst
+#BIOSET:Codex/acx_biosettings.lst
+EQUIPMENT:Codex/acx_equip_arms_armor.lst
+EQUIPMENT:Codex/acx_equipment_general.lst
+EQUIPMOD:Codex/acx_equipmods.lst
+LANGUAGE:Codex/acx_languages.lst
+RACE:Codex/acx_races.lst
+SPELL:Codex/acx_spells.lst

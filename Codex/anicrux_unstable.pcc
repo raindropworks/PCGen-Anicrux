@@ -27,5 +27,5 @@ PCC:@/homebrew/PCGen-Anicrux/anicrux.pcc
 
 #EQUIPMOD:@/homebrew/PCGen-Anicrux/Codex/u_acx_equipmods.lst
 #EQUIPMENT:@/homebrew/PCGen-Anicrux/Codex/u_acx_equipment_general.lst
-ABILITY:@/homebrew/PCGen-Anicrux/Codex/u_acx_abilities_race.lst
-RACE:@/homebrew/PCGen-Anicrux/Codex/u_acx_races.lst
+ABILITY:u_acx_abilities_race.lst
+RACE:u_acx_races.lst
