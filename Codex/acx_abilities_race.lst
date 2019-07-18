@@ -58,7 +58,7 @@ CATEGORY=Internal|Racial Traits ~ Langomorph.MOD	DEFINE:Langomorph_ReplaceSprint
 CATEGORY=Internal|Racial Traits ~ Langomorph.MOD	DEFINE:Langomorph_ReplaceLanguages|0		ABILITY:Langomorph Racial Trait|AUTOMATIC|Langomorph ~ Languages|PREVAREQ:Langomorph_ReplaceLanguages,0
 CATEGORY=Internal|Racial Traits ~ Langomorph.MOD	DEFINE:Langomorph_ReplaceSaves|0			ABILITY:Langomorph Racial Trait|AUTOMATIC|Langomorph ~ Lucky|PREVAREQ:Langomorph_ReplaceSaves,0
 CATEGORY=Internal|Racial Traits ~ Langomorph.MOD	DEFINE:Langomorph_ReplaceJump|0				ABILITY:Langomorph Racial Trait|AUTOMATIC|Langomorph ~ Jumper|PREVAREQ:Langomorph_ReplaceJump,0
-CATEGORY=Internal|Racial Traits ~ Langomorph.MOD	DEFINE:Langomorph_ReplaceCorneredFury|0		ABILITY:Langomorph Racial Trait|AUTOMATIC|Langomorph ~ Cornered Fury|PREVAREQ:Canid_ReplaceCorneredFury,0
+CATEGORY=Internal|Racial Traits ~ Langomorph.MOD	DEFINE:Langomorph_ReplaceCorneredFury|0		ABILITY:Langomorph Racial Trait|AUTOMATIC|Langomorph ~ Cornered Fury|PREVAREQ:Langomorph_ReplaceCorneredFury,0
 
 ###Block: Default Racial Traits
 # Ability Name													Unique Key						Category of Ability				Type																												Description																																																Template/Auto Language/Ability/Combat bonus/Bonus to skill/Stat bonus/Weapon prof. bonus/Vision															Source Page		Aspects
