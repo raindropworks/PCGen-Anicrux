@@ -1,0 +1,18 @@
+# CVS $Revision$ $Author$ -- Sat Nov 23 14:46:39 2013 -- reformated by prettylst.pl v1.50 (build 22134)
+SOURCELONG:Puddle Zone Compatability Patches	SOURCESHORT:PDZ	SOURCEWEB:https://puddle.zone/sera	SOURCEDATE:2019-04
+
+# ==============================
+# RACE ABILITIES
+# ==============================
+
+# ------------------------------
+# Canid
+# ------------------------------
+
+###Block: Racial Abilities
+# Ability Name						Category of Ability	Define									Ability																									Source Page
+
+#Trox ~ Tremorsense.MOD		TYPE:.CLEAR.RacialTrait		TYPE:Trox Racial Trait
+
+#Trox ~ Tremorsense.MOD		TYPE:Trox Racial Trait
+Tremorsense		KEY:Trox ~ Tremorsense				CATEGORY:Special Ability	TYPE:RacialTrait.SpecialQuality.Extraordinary.TroxRacialTrait.TroxBurrow.TroxFrenzy.Trox Racial Trait																																PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trox ~ Tremorsense],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.TroxBurrow,TYPE.TroxFrenzy]																																																														DESC:Gain tremorsense to a range of 30 feet.																																																																																																																																																																																																																												BONUS:VAR|TremorsenseRange|30																																											COST:0	SOURCELONG:Pathfinder RPG Advanced Race Guide		SOURCEDATE:2012		SOURCEPAGE:Inner Sea Races p.217
