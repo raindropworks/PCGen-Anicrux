@@ -4,6 +4,8 @@ GAMEMODE:Pathfinder
 RANK:9
 GENRE:Fantasy
 BOOKTYPE:Homebrew
+PRECAMPAIGN:1,INCLUDES=Advanced Race Guide
+PRECAMPAIGN:1,INCLUDES=Adventurer's Armory
 SETTING:Anicrux
 TYPE:Homebrew.PathfinderHomebrew
 PUBNAMELONG:The Anicruian Codex
@@ -22,10 +24,11 @@ INFOTEXT:The Anicruian Codex, A guide to the world of Anicrux.  Latest version a
 #EXTRAFILE:OGL.txt
 
 #External PCC files
-PCC:@/homebrew/PCGen-Anicrux/Puddle_Zone/puddlezone.pcc
-PCC:@/homebrew/PCGen-Anicrux/anicrux.pcc
+PCC:../Puddle_Zone/puddlezone.pcc
+PCC:../anicrux.pcc
 
 #EQUIPMOD:@/homebrew/PCGen-Anicrux/Codex/u_acx_equipmods.lst
 #EQUIPMENT:@/homebrew/PCGen-Anicrux/Codex/u_acx_equipment_general.lst
 ABILITY:u_acx_abilities_race.lst
+ABILITYCATEGORY:u_acx_abilitycategories.lst
 RACE:u_acx_races.lst

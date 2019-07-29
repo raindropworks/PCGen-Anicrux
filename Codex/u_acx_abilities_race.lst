@@ -1,4 +1,5 @@
-SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/sera	SOURCEDATE:2019-04
+# Mon Jul 29 01:08:01 2019 -- reformated by PCGen PrettyLST v6.08.00
+SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/sera/	SOURCEDATE:2019-04
 #Source version before α-190417
 
 # ==============================
@@ -9,35 +10,35 @@ SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/ser
 # ------------------------------
 
 ###Block: Racial Abilities
-# Ability Name						Category of Ability		Define										Ability																												Source Page
-#CATEGORY=Internal|Racial Traits ~ Langomorph.MOD	DEFINE:Langomorph_ReplaceAbilityScores|0	ABILITY:Langomorph Racial Trait|AUTOMATIC|Langomorph ~ Ability Scores|PREVAREQ:Langomorph_ReplaceAbilityScores,0
-Racial Traits ~ Merfox		CATEGORY:Internal		SOURCEPAGE:p.5
-CATEGORY=Internal|Racial Traits ~ Merfox.MOD		DEFINE:Merfox_ReplaceAbilityScores|0		ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Ability Scores|PREVAREQ:Merfox_ReplaceAbilityScores,0
-CATEGORY=Internal|Racial Traits ~ Merfox.MOD		DEFINE:Merfox_ReplaceType|0		ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Type|PREVAREQ:Merfox_ReplaceType,0
-CATEGORY=Internal|Racial Traits ~ Merfox.MOD		DEFINE:Merfox_ReplaceSize|0		ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Size|PREVAREQ:Merfox_ReplaceSize,0
-CATEGORY=Internal|Racial Traits ~ Merfox.MOD		DEFINE:Merfox_ReplaceSpeed|0		ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Speed|PREVAREQ:Merfox_ReplaceSpeed,0
-CATEGORY=Internal|Racial Traits ~ Merfox.MOD		DEFINE:Merfox_ReplaceLanguages|0		ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Languages|PREVAREQ:Merfox_ReplaceLanguages,0
-CATEGORY=Internal|Racial Traits ~ Merfox.MOD		DEFINE:Merfox_ReplaceTransformation|0		ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Transformation|PREVAREQ:Merfox_ReplaceTransformation,0
-CATEGORY=Internal|Racial Traits ~ Merfox.MOD		DEFINE:Merfox_ReplaceTail|0				ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Tail|PREVAREQ:Merfox_ReplaceTail,0
-CATEGORY=Internal|Racial Traits ~ Merfox.MOD		DEFINE:Merfox_ReplaceWeaponProf|0		ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Weapon Proficiency|PREVAREQ:Merfox_ReplaceWeaponProf,0
-CATEGORY=Internal|Racial Traits ~ Merfox.MOD		DEFINE:Merfox_ReplaceArmorProf|0		ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Armor Proficiency|PREVAREQ:Merfox_ReplaceArmorProf,0
-CATEGORY=Internal|Racial Traits ~ Merfox.MOD		DEFINE:Merfox_ReplaceShards|0		ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Shards of the Past|PREVAREQ:Merfox_ReplaceShards,0
-CATEGORY=Internal|Racial Traits ~ Merfox.MOD	DEFINE:Merfox_ReplaceWaterSense|0			ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Water Sense|PREVAREQ:Merfox_ReplaceWaterSense,0
+# Ability Name						Category of Ability	Define						Ability																Source Page
+Racial Traits ~ Merfox					CATEGORY:Internal																										SOURCEPAGE:p.5
+CATEGORY=Internal|Racial Traits ~ Merfox.MOD					DEFINE:Merfox_ReplaceAbilityScores|0	ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Ability Scores|PREVAREQ:Merfox_ReplaceAbilityScores,0
+CATEGORY=Internal|Racial Traits ~ Merfox.MOD					DEFINE:Merfox_ReplaceType|0			ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Type|PREVAREQ:Merfox_ReplaceType,0
+CATEGORY=Internal|Racial Traits ~ Merfox.MOD					DEFINE:Merfox_ReplaceSize|0			ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Size|PREVAREQ:Merfox_ReplaceSize,0
+CATEGORY=Internal|Racial Traits ~ Merfox.MOD					DEFINE:Merfox_ReplaceSpeed|0			ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Speed|PREVAREQ:Merfox_ReplaceSpeed,0
+CATEGORY=Internal|Racial Traits ~ Merfox.MOD					DEFINE:Merfox_ReplaceLanguages|0		ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Languages|PREVAREQ:Merfox_ReplaceLanguages,0
+CATEGORY=Internal|Racial Traits ~ Merfox.MOD					DEFINE:Merfox_ReplaceTransformation|0	ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Transformation|PREVAREQ:Merfox_ReplaceTransformation,0
+CATEGORY=Internal|Racial Traits ~ Merfox.MOD					DEFINE:Merfox_ReplaceTail|0			ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Tail|PREVAREQ:Merfox_ReplaceTail,0
+CATEGORY=Internal|Racial Traits ~ Merfox.MOD					DEFINE:Merfox_ReplaceWeaponProf|0		ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Weapon Proficiency|PREVAREQ:Merfox_ReplaceWeaponProf,0
+CATEGORY=Internal|Racial Traits ~ Merfox.MOD					DEFINE:Merfox_ReplaceArmorProf|0		ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Armor Proficiency|PREVAREQ:Merfox_ReplaceArmorProf,0
+CATEGORY=Internal|Racial Traits ~ Merfox.MOD					DEFINE:Merfox_ReplaceShards|0			ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Shards of the Past|PREVAREQ:Merfox_ReplaceShards,0
+CATEGORY=Internal|Racial Traits ~ Merfox.MOD					DEFINE:Merfox_ReplaceWaterSense|0		ABILITY:Merfox Racial Trait|AUTOMATIC|Merfox ~ Water Sense|PREVAREQ:Merfox_ReplaceWaterSense,0
 
 
 ###Block: Default Racial Traits
-+4 Wisdom, -2 Intelligence, -2 Strength		KEY:Merfox ~ Ability Scores		CATEGORY:Special Ability		TYPE:RacialTraits.Merfox Racial Trait.Racial Ability Scores		DESC:Merfoxes are deeply connected to nature, but tend to not think plans through and are not as strong as some of their aquatic counterparts		BONUS:STAT|WIS|4|TYPE=Racial		BONUS:STAT|INT|-2|TYPE=Racial		BONUS:STAT|STR|-2|TYPE:Racial		SOURCEPAGE:p.6
-Merfox		KEY:Merfox ~ Type			CATEGORY:Special Ability	TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.Racial Type									DESC:Merfox are humanoids with the mermaid and kitsune subtypes.		SOURCEPAGE:p.7
-Medium		KEY:Merfox ~ Size		CATEGORY:Special Ability		TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.Racial Size		DESC:Langomorphs are Medium creatures and have no bonuses or penalties due to their size.		SOURCEPAGE:p.7
-Fast Speed		KEY:Merfox ~ Speed		CATEGORY:Special Ability		TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.Racial Speed		DESC:Merfoxes have a base speed on land of 30 feet and a 40 foot swim speed.		SOURCEPAGE:p.7
-Languages		KEY:Merfox ~ Languages		CATEGORY:Special Ability		TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.Racial Language		DESC:Merfoxes begin play speaking Common and Aquan.  Merfox with high Intelligence scores can choose from the following languages: Aboleth, Catfolk, Dwarven, Halfling, Sylvan, Orc and Terran		TEMPLATE:Race Bonus Language ~ Aboleth|Race Bonus Language ~ Catfolk|Race Bonus Language ~ Dwarven|Race Bonus Language ~ Halfling|Race Bonus Language ~ Sylvan|Race Bonus Language ~ Orc|Race Bonus Language ~ Terran		AUTO:LANG|Common|Aquan		SOURCEPAGE:p.7
-Vulpine Transformation		KEY:Merfox ~ Transformation		CATEGORY:Special Ability		TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.Racial Transformation		DESC:At will, as a standard action, a merfox can transform into a twin-tailed humanoid appearing as a kitsune.  This ability acts like polymorph, but with some significant differences.
-Slapping Tail		KEY:Merfox ~ Tail		CATEGORY:Special Ability		TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.SpecialQuality		DESC:While in mer form, merfoxes can make attacks with their tail as a natural attack		NATURALATTACKS:Tail,Weapon.Natural.Melee.Bludgeoning,*1,1d8		SOURCEPAGE:p.7
+# Ability Name					Unique Key					Category of Ability		Type														Description																															Template																																			Auto Language		Auto Weapon Prof											Ability										Bonus Ability Pool							Stat bonus														Source Page		Natural Attacks
++4 Wisdom, -2 Intelligence, -2 Strength	KEY:Merfox ~ Ability Scores		CATEGORY:Special Ability	TYPE:RacialTraits.Merfox Racial Trait.Racial Ability Scores					DESC:Merfoxes are deeply connected to nature, but tend to not think plans through and are not as strong as some of their aquatic counterparts																																																																																			BONUS:STAT|WIS|4|TYPE=Racial	BONUS:STAT|INT|-2|TYPE=Racial	BONUS:STAT|STR|-2|TYPE=Racial	SOURCEPAGE:p.6
+Merfox						KEY:Merfox ~ Type				CATEGORY:Special Ability	TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.Racial Type			DESC:Merfox are humanoids with the mermaid and kitsune subtypes.																																																																																																															SOURCEPAGE:p.7
+Medium						KEY:Merfox ~ Size				CATEGORY:Special Ability	TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.Racial Size			DESC:Langomorphs are Medium creatures and have no bonuses or penalties due to their size.																																																																																																											SOURCEPAGE:p.7
+Fast Speed						KEY:Merfox ~ Speed			CATEGORY:Special Ability	TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.Racial Speed		DESC:Merfoxes have a base speed on land of 30 feet and a 40 foot swim speed.																																																																																																													SOURCEPAGE:p.7
+Languages						KEY:Merfox ~ Languages			CATEGORY:Special Ability	TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.Racial Language		DESC:Merfoxes begin play speaking Common and Aquan.  Merfox with high Intelligence scores can choose from the following languages: Aboleth, Catfolk, Dwarven, Halfling, Sylvan, Orc and Terran	TEMPLATE:Race Bonus Language ~ Aboleth|Race Bonus Language ~ Catfolk|Race Bonus Language ~ Dwarven|Race Bonus Language ~ Halfling|Race Bonus Language ~ Sylvan|Race Bonus Language ~ Orc|Race Bonus Language ~ Terran	AUTO:LANG|Common|Aquan																																																		SOURCEPAGE:p.7
+Vulpine Transformation				KEY:Merfox ~ Transformation		CATEGORY:Special Ability	TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.SpecialQuality		DESC:At will, as a standard action, a merfox can transform into a twin-tailed humanoid appearing as a kitsune.  This ability acts like polymorph, but with some significant differences.
+Slapping Tail					KEY:Merfox ~ Tail				CATEGORY:Special Ability	TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.SpecialQuality		DESC:While in mer form, merfoxes can make attacks with their tail as a natural attack																																																																																																											SOURCEPAGE:p.7	NATURALATTACKS:Tail,Weapon.Natural.Melee.Bludgeoning,*1,1d8
 
-Weapon Proficiencies		KEY:Merfox ~ Weapon Proficiency		TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.SpecialQuality		DESC:Merfoxes are skilled in all simple weapons as well as trident and trident-like weapons (trident, ranseur, tiger fork, tri-point double edged sword).		ABILITY:Internal|AUTOMATIC|TYPE=WeaponProfSimple		AUTO:WEAPONPROF|Trident|Ranseur|Tiger Fork|Sword (Tri-Point Double-Edged)|Net		SOURCEPAGE:p.7
+Weapon Proficiencies				KEY:Merfox ~ Weapon Proficiency	CATEGORY:Special Ability	TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default					DESC:Merfoxes are skilled in all simple weapons as well as trident and trident-like weapons (trident, ranseur, tiger fork, tri-point double edged sword).																																															AUTO:WEAPONPROF|Trident|Ranseur|Tiger Fork|Sword (Tri-Point Double-Edged)|Net	ABILITY:Internal|AUTOMATIC|TYPE=WeaponProfSimple																												SOURCEPAGE:p.7
 
-Armor Proficiencies			KEY:Merfox ~ Armor Proficiency		TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.SpecialQuality	DESC:Merfoxes are skilled with light armor and basic shields.		ABILITY:Internal|AUTOMATIC|TYPE=ArmorProfLight|TYPE=ShieldProf		SOURCEPAGE:p.7
+Armor Proficiencies				KEY:Merfox ~ Armor Proficiency	CATEGORY:Special Ability	TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default					DESC:Merfoxes are skilled with light armor and basic shields.																																																																											ABILITY:Internal|AUTOMATIC|TYPE=ArmorProfLight|TYPE=ShieldProf																										SOURCEPAGE:p.7
 
-Shards of the Past		KEY:Merfox ~ Shards of the Past		TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.SpecialQuality		DESC:Merfoxes have past lives that grant them with particular Knowledge skills.		BONUS:ABILITYPOOL|Shards of the Past Knowledge Skill|2 		SOURCEPAGE:p.7
+Shards of the Past				KEY:Merfox ~ Shards of the Past	CATEGORY:Special Ability	TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.SpecialQuality		DESC:Merfoxes have past lives that grant them with particular Knowledge skills.																																																																																			BONUS:ABILITYPOOL|Shards of the Past Knowledge Skill|2																SOURCEPAGE:p.7
 
-Water Sense		KEY:Merfox ~ Water Sense		CATEGORY:Special Ability	TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.SpecialQuality		DESC:Merfoxes have the ability to sense vibrations in the water, granting them blindsense of 30 feet against creatures that are touching the same body of water.		SOURCEPAGE:p.7
+Water Sense						KEY:Merfox ~ Water Sense		CATEGORY:Special Ability	TYPE:RacialTraits.Merfox Racial Trait.Merfox Racial Default.SpecialQuality		DESC:Merfoxes have the ability to sense vibrations in the water, granting them blindsense of 30 feet against creatures that are touching the same body of water.																																																																																															SOURCEPAGE:p.7
