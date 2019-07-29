@@ -1,7 +1,7 @@
-# CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
-SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/sera	SOURCEDATE:2019-04
+# Mon Jul 29 01:08:01 2019 -- reformated by PCGen PrettyLST v6.08.00
+SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/sera/	SOURCEDATE:2019-04
 #Source version α-190417
 
 ###Block: Races
-# Race Name	Starting Feats		Base size			Size		Move			Reach	Ability													Nb Legs	Nb Hands	Main Race Type		Race Subtype				Type					Source Page		FACT
-Merfox		STARTFEATS:2	FACT:BaseSize|M		SIZE:M	MOVE:Walk,30,Swim,40		REACH:5		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Merfox		LEGS:2		HANDS:2		RACETYPE:Humanoid	RACESUBTYPE:Mermaid|Kitsune		TYPE:Humanoid.PC	SOURCEPAGE:p.6		FACT:IsPC|True
+# Race Name	Starting Feats	Base size		Size		Move				Reach		Ability								Nb Legs	Nb Hands	Main Race Type	Race Subtype			Type			Source Page		FACT
+Merfox	STARTFEATS:2	FACT:BaseSize|M	SIZE:M	MOVE:Walk,30,Swim,40	REACH:5	ABILITY:Internal|AUTOMATIC|Racial Traits ~ Merfox	LEGS:2	HANDS:2	RACETYPE:Humanoid	RACESUBTYPE:Mermaid|Kitsune	TYPE:Humanoid.PC	SOURCEPAGE:p.6	FACT:IsPC|True

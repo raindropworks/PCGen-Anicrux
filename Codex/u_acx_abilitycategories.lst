@@ -1,0 +1,5 @@
+# Mon Jul 29 01:08:01 2019 -- reformated by PCGen PrettyLST v6.08.00
+
+###Block: Racial Traits Categories
+# Ability Category			Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object			Plural description for UI	Display Location
+ABILITYCATEGORY:Merfox Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Merfox Racial Trait	PLURAL:Merfox Racial Traits	DISPLAYLOCATION:Racial Abilities
