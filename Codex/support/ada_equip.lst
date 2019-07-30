@@ -1,0 +1,5 @@
+# Mon Jul 29 02:17:05 2019 -- reformated by PCGen PrettyLST v6.08.00
+
+###Block: Goods and Services
+# Equipment Name	Type				Cost		Weight	Source, Long Desc.							Source, Short Desc.	Source URI							Source Page		Source Pub. Date
+Pocket Watch	TYPE:Goods.General	COST:250	WT:1		SOURCELONG:Pathfinder Player Companion: Adventurer's Armory	SOURCESHORT:ADA		SOURCEWEB:http://paizo.com/products/btpy8dmf	SOURCEPAGE:p.7	SOURCEDATE:2010-04

@@ -22,7 +22,7 @@ INFOTEXT:The Anicruian Codex, A guide to the world of Anicrux.  Latest version a
 #EXTRAFILE:OGL.txt
 
 #External PCC files
-PRECAMPAIGN:1,INCLUDES=Adventurer's Armory
+EQUIPMENT:Codex/support/ada_equip.lst|!PRECAMPAIGN:1,INCLUDES=Adventurer's Armory
 PCC:Puddle_Zone/puddlezone.pcc
 
 #Core LST files
