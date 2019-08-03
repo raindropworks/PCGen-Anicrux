@@ -27,6 +27,7 @@ PCC:Puddle_Zone/puddlezone.pcc
 
 #Core LST files
 ABILITY:Codex/acx_abilities_race.lst
+ABILITY:Codex/acx_abilities.lst
 ABILITYCATEGORY:Codex/acx_abilitycategories.lst
 #BIOSET:Codex/acx_biosettings.lst
 EQUIPMENT:Codex/acx_equip_arms_armor.lst
@@ -35,3 +36,4 @@ EQUIPMOD:Codex/acx_equipmods.lst
 LANGUAGE:Codex/acx_languages.lst
 RACE:Codex/acx_races.lst
 SPELL:Codex/acx_spells.lst
+TEMPLATES:Codex/acx_templates.lst
