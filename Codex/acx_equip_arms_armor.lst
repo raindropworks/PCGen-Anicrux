@@ -67,4 +67,4 @@ Giantbeater Gauntlet		KEY:Giantbeater Gauntlet (Base)		SORTKEY:zzBase		PROFICIEN
 
 Giantbeater Gauntlet (Base).COPY=Giantbeater Gauntlet		KEY:Giantbeater Gauntlet		BASEITEM:Giantbeater Gauntlet (Base)		EQMOD:Material ~ Steel		BONUS:COMBAT|AC|2|TYPE=DEFLECTION		SPROP:Deals nonleathal damage only.		VISIBLE:YES
 
-Revolver.COPY=Hand Cannon		KEY:Hand Cannon		DAMAGE:2d6		VISIBLE:YES		COST:7000		SPROP:A much larger version of a revolver, this firearm takes larger bullets and is able to make a greater impact than it's cousin.
+Revolver.COPY=Hand Cannon		KEY:Hand Cannon		DAMAGE:2d6		VISIBLE:YES		COST:7000		BONUS:WEAPON|ATTACKSPROGRESS|1		SPROP:Can only be used once per round.
