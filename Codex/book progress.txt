@@ -2,7 +2,7 @@ Book Checklist
 Races:
 	Canid - Done
 	Langomorph - Done
-	Merfoxes
+	Merfoxes - In Unstable.  Need to validate in stable before full deployment
 	Sciuridae
 Items:
 	Bangles of Telepathic Bonding - Done
@@ -18,6 +18,9 @@ Arms and Armor:
 	Medium Maid Armor - Done
 	Heavy Maid Armor - Done
 	Giantbeater Gauntlet - Done
-	Erion - Not implemented
+	Erion - Will Not be Implemented
 Magic:
 	Momento Dagger - Done
+	
+Misc.:
+	Create support file to copy AA's Pocketwatch if it isn't loaded - Done
