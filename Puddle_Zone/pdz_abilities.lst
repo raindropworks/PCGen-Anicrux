@@ -1,5 +1,5 @@
 # CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
-SOURCELONG:My Pathfinder Campaign	SOURCESHORT:MPC	SOURCEWEB:http://www.mpcwebsite.com	SOURCEDATE:2008-01
+SOURCELONG:Puddle Zone Compatability Patches	SOURCESHORT:PDZ	SOURCEWEB:https://puddle.zone/sera	SOURCEDATE:2019-04
 
 # Class Feature Blank
 #	KEY:xxx ~
@@ -73,4 +73,4 @@ At-Will Detect Evil	SORTKEY:Z_Award	CATEGORY:Special Ability	TYPE:GM_Award.Speci
 
 #===== Added Traits=========
 #Missing Regional Trait from https://www.d20pfsrd.com/traits/regional-traits/talented-blacksmith/
-Talented Blacksmith		KEY:Trait ~ Talented Blacksmith		CATEGORY:Special Ability		TYPE:Trait.RegionalTrait2		PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Talented Blacksmith],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RegionalTrait2]				DESC:As a former slave of the hobgoblins, you were forced to make many of the weapons and shields that your captors used in war. Choose either Craft (Armor) or Craft (Weapons). You gain a +1 trait bonus on the chosen skill, and it becomes a class skill for you.		STACK:NO		MULT:YES		CHOOSE:SKILL|Craft (Armor)|Craft (Weapons)		BONUS:SKILL|LIST|1|TYPE=Trait		CSKILL:LIST		SOURCELONG:Pathfinder Player Companion: Dragon Empires Primer		SOURCEDATE:2011
+Talented Blacksmith		KEY:Trait ~ Talented Blacksmith		CATEGORY:Special Ability		TYPE:Trait.RegionalTrait2		PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Talented Blacksmith],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RegionalTrait2]				DESC:As a former slave of the hobgoblins, you were forced to make many of the weapons and shields that your captors used in war. Choose either Craft (Armor) or Craft (Weapons). You gain a +1 trait bonus on the chosen skill, and it becomes a class skill for you.		STACK:NO		MULT:YES		CHOOSE:SKILL|Craft (Armor)|Craft (Weapons)		BONUS:SKILL|LIST|1|TYPE=Trait		CSKILL:LIST		SOURCELONG:Pathfinder Player Companion: Dragon Empires Primer		SOURCEDATE:2011-01
