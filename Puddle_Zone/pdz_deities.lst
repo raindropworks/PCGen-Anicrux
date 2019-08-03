@@ -32,7 +32,9 @@ SOURCELONG:Puddle Zone Compatability Patches	SOURCESHORT:PDZ	SOURCEWEB:https://p
 #Mosat		DOMAINS:Chaos,Knowledge,Animal|PREALIGN:LG,LN,NG,TN,CG,CN		DESC:The CONTENTed One		SYMBOL:a Kitten on a keyboard		DEITYWEAP:Tiger claws		ALIGN:CG	PANTHEON:BoD	SOURCEPAGE:not recorded yet
 
 # https://www.d20pfsrd.com/classes/core-classes/cleric/gods-3rd-party-publishers/gods-of-porphyra-pdg/tulis/ - Deity only
-Tulis		DOMAINS:Liberation,Nobility,Protection,Strength|PREALIGN:LG,NG,CG,LN,TN,CN,LE,LN,LE		DESC:The Martyr		DEITYWEAP:Longsword		ALIGN:CG	PANTHEON:Gods of Porphyra		SOURCELONG:The Gods of Porphyra		SOURCEDATE:2012-01
+Tulis		NAMEISPI:YES		DOMAINS:Liberation,Nobility,Protection,Strength|PREALIGN:LG,NG,CG,LN,TN,CN,LE,LN,LE		DESC:The Martyr		DEITYWEAP:Longsword		ALIGN:CG		PANTHEON:Gods of Porphyra		SOURCELONG:The Gods of Porphyra		SOURCEDATE:2012-01
+
+Beory		NAMEISPI:YES		DOMAINS:Animal,Earth,Plant,Water,Weather|PREALIGN:TN,NG,NE,LN,CN		DESC:The Oerth Mother		DEITYWEAP:Club		ALIGN:TN		PANTHEON:Flan		SOURCELONG:World of Greyhawk Fantasy Game Setting		SOURCEDATE:1983-01
 
 #####
 #The first field is the Deity Name, this is a required field and does not have a tag.
