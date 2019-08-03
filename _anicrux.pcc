@@ -36,4 +36,4 @@ EQUIPMOD:Codex/acx_equipmods.lst
 LANGUAGE:Codex/acx_languages.lst
 RACE:Codex/acx_races.lst
 SPELL:Codex/acx_spells.lst
-TEMPLATES:Codex/acx_templates.lst
+TEMPLATE:Codex/acx_templates.lst

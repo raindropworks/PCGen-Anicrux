@@ -68,16 +68,16 @@ SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/ser
 #(RACETYPE is used internally by PCGen for matching up with Monster HD, and for references to race, such as the Rangers Favored Enemy.)
 
 #Regional Affinity (Absalom)								VISIBLE:NO	SOURCEPAGE:p.38	LANGBONUS:Kelish,Osiriani			REGION:Absalom
-Regional Affinity (Anicrux)		VISIBLE:NO		SOURCEPAGE:p2		REGION:Anicrux
-Regional Affinity (Genevo)		VISIBLE:NO		SOURCEPAGE:p2		REGION:Genevo
-Regional Affinity (Rudor)		VISIBLE:NO		SOURCEPAGE:p2		REGION:Rudor
-Regional Affinity (Volwahr)		VISIBLE:NO		SOURCEPAGE:p2		REGION:Volwahr
-Regional Affinity (Virzia)		VISIBLE:NO		SOURCEPAGE:p2		REGION:Virzia
-Regional Affinity (Balia)		VISIBLE:NO		SOURCEPAGE:p2		REGION:Balia
-Regional Affinity (Eethlin)		VISIBLE:NO		SOURCEPAGE:p2		REGION:Eethlin
-Regional Affinity (Krubet)		VISIBLE:NO		SOURCEPAGE:p3		REGION:Krubet
-Regional Affinity (Lusta Empire)		VISIBLE:NO		SOURCEPAGE:p3		REGION:Lusta Empire
-Regional Affinity (Khalyra)		VISIBLE:NO		SOURCEPAGE:p3		REGION:Khalyra
-Regional Affinity (High Citadel)		VISIBLE:NO		REGION:High Citadel
+Regional Affinity (Anicrux)		KEY:Regional Affinity ~ Anicrux		VISIBLE:NO		SOURCEPAGE:p2		REGION:Anicrux
+Regional Affinity (Genevo)		KEY:Regional Affinity ~ Genevo		VISIBLE:NO		SOURCEPAGE:p2		REGION:Genevo
+Regional Affinity (Rudor)		KEY:Regional Affinity ~ Rudor		VISIBLE:NO		SOURCEPAGE:p2		REGION:Rudor
+Regional Affinity (Volwahr)		KEY:Regional Affinity ~ Volwahr		VISIBLE:NO		SOURCEPAGE:p2		REGION:Volwahr
+Regional Affinity (Virzia)		KEY:Regional Affinity ~ Virzia		VISIBLE:NO		SOURCEPAGE:p2		REGION:Virzia
+Regional Affinity (Balia)		KEY:Regional Affinity ~ Balia		VISIBLE:NO		SOURCEPAGE:p2		REGION:Balia
+Regional Affinity (Eethlin)		KEY:Regional Affinity ~ Eethlin		VISIBLE:NO		SOURCEPAGE:p2		REGION:Eethlin
+Regional Affinity (Krubet)		KEY:Regional Affinity ~ Krubet		VISIBLE:NO		SOURCEPAGE:p3		REGION:Krubet
+Regional Affinity (Lusta Empire)		KEY:Regional Affinity ~ Lusta Empire		VISIBLE:NO		SOURCEPAGE:p3		REGION:Lusta Empire
+Regional Affinity (Khalyra)		KEY:Regional Affinity ~ Khalyra		VISIBLE:NO		SOURCEPAGE:p3		REGION:Khalyra
+Regional Affinity (High Citadel)		KEY:Regional Affinity ~ High Citadel		VISIBLE:NO		REGION:High Citadel
 #Grey Lands will be transferred to the Dark Codes once development begins
-Regional Affinity (Grey Lands)		VISIBLE:NO		REGION:Grey Lands
+Regional Affinity (Grey Lands)		KEY:Regional Affinity ~ Grey Lands		VISIBLE:NO		REGION:Grey Lands
