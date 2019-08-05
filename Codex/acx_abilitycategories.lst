@@ -1,5 +1,5 @@
 #SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/sera	SOURCEDATE:2019-04
-#Source version before α-190417
+#Source version before α-190804
 
 ###Block: Racial Traits Categories
 ABILITYCATEGORY:Canid Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Canid Racial Trait			PLURAL:Canid Racial Traits		DISPLAYLOCATION:Racial Abilities

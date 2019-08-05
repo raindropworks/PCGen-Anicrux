@@ -1,7 +1,6 @@
 # Mon Jul 29 01:08:01 2019 -- reformated by PCGen PrettyLST v6.08.00
 SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/sera/	SOURCEDATE:2019-04
-#Source version before α-190417
-
+#Source version before α-190804
 #	Ninja Monkey	HITDIE:12	CR:2	DR:15/Epic	LEVELADJUSTMENT:2	RACESUBTYPE:Extraplanar|Evil	DEFINE:NinjaMonkeyEvilAura|0	BONUS:VAR|NinjaMonkeyEvilAura|TL	ABILITY:FEAT|AUTOMATIC|Dodge	PREALIGN:LE
 
 
@@ -78,6 +77,5 @@ Regional Affinity (Eethlin)		KEY:Regional Affinity ~ Eethlin		VISIBLE:NO		SOURCE
 Regional Affinity (Krubet)		KEY:Regional Affinity ~ Krubet		VISIBLE:NO		SOURCEPAGE:p3		REGION:Krubet
 Regional Affinity (Lusta Empire)		KEY:Regional Affinity ~ Lusta Empire		VISIBLE:NO		SOURCEPAGE:p3		REGION:Lusta Empire
 Regional Affinity (Khalyra)		KEY:Regional Affinity ~ Khalyra		VISIBLE:NO		SOURCEPAGE:p3		REGION:Khalyra
-Regional Affinity (High Citadel)		KEY:Regional Affinity ~ High Citadel		VISIBLE:NO		REGION:High Citadel
-#Grey Lands will be transferred to the Dark Codes once development begins
-Regional Affinity (Grey Lands)		KEY:Regional Affinity ~ Grey Lands		VISIBLE:NO		REGION:Grey Lands
+Regional Affinity (High Citadel)		KEY:Regional Affinity ~ High Citadel		VISIBLE:NO		SOURCEPAGE:p3		REGION:High Citadel
+Regional Affinity (Grey Lands)		KEY:Regional Affinity ~ Grey Lands		VISIBLE:NO		SOURCEPAGE:p3		REGION:Grey Lands

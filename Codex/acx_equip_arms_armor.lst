@@ -1,6 +1,6 @@
 # CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
 SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/sera	SOURCEDATE:2019-04
-#Source version α-190417
+#Source version before α-190804
 
 #insert your data here
 
@@ -67,4 +67,4 @@ Giantbeater Gauntlet		KEY:Giantbeater Gauntlet (Base)		SORTKEY:zzBase		PROFICIEN
 
 Giantbeater Gauntlet (Base).COPY=Giantbeater Gauntlet		KEY:Giantbeater Gauntlet		BASEITEM:Giantbeater Gauntlet (Base)		EQMOD:Material ~ Steel		BONUS:COMBAT|AC|2|TYPE=DEFLECTION		SPROP:Deals nonleathal damage only.		VISIBLE:YES
 
-Revolver.COPY=Hand Cannon		KEY:Hand Cannon		DAMAGE:2d6		VISIBLE:YES		COST:7000		BONUS:WEAPON|ATTACKSPROGRESS|1		SPROP:Can only be used once per round.
+Revolver.COPY=Hand Cannon		KEY:Hand Cannon		DAMAGE:2d6		VISIBLE:YES		COST:7000		BONUS:WEAPON|ATTACKSPROGRESS|1		SPROP:Can only be used once per round.		SOURCEPAGE:p12

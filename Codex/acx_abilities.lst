@@ -1,6 +1,6 @@
 # Mon Jul 29 01:08:01 2019 -- reformated by PCGen PrettyLST v6.08.00
 SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/sera/	SOURCEDATE:2019-04
-#Source version before α-190417
+#Source version before α-190804
 
 # Class Feature Blank
 #	KEY:xxx ~
@@ -85,6 +85,5 @@ Eethlin		NAMEISPI:YES		CATEGORY:Background		TYPE:Region		VISIBLE:DISPLAY		DESC:T
 Krubet		NAMEISPI:YES		CATEGORY:Background		TYPE:Region		VISIBLE:DISPLAY		DESC:A cold nation, Krubet literally sits on top of the world, populated by only the hardiest of men and women.  Known for cold water fishing and trapping, they trade with southerly countries for the supplies they cannot easily grow themselves.  The more northern tribes are also not above attempting to raid the forests of the Llim Woods.		TEMPLATE:Regional Affinity ~ Krubet		SOURCEPAGE:p.3
 Lusta Empire		NAMEISPI:YES		CATEGORY:Background		TYPE:Region		VISIBLE:DISPLAY		DESC:The Lusta Empire, while weak in natural resources, is well placed to be a nation of traders and harvesters of spices.  Their craftsman, using Rudorian silverwood, are able to build some of the finest ships in the world.		TEMPLATE:Regional Affinity ~ Lusta Empire		SOURCEPAGE:p.3
 Khalyra		NAMEISPI:YES		CATEGORY:Background		TYPE:Region		VISIBLE:DISPLAY		DESC:A highly insular country, very little is known about them.  Aside from their defense of the Virizia and the trade they engage in with the Volwohr, there is not much contact with the outside world.  Even when it’s people travel outside their country, they remain cloaked, anonymous, even voices disguised to a raspy metallic sound.		TEMPLATE:Regional Affinity ~ Khalyra		SOURCEPAGE:p.3
-High Citadel		NAMEISPI:YES		CATEGORY:Background		TYPE:Region		VISIBLE:DISPLAY		TEMPLATE:Regional Affinity ~ High Citadel
-#Grey Lands will be transferred to the Dark Codes once development begins
-Grey Lands		NAMEISPI:YES		CATEGORY:Background		TYPE:Region		VISIBLE:DISPLAY		TEMPLATE:Regional Affinity ~ Grey Lands
+High Citadel		NAMEISPI:YES		CATEGORY:Background		TYPE:Region		VISIBLE:DISPLAY		TEMPLATE:Regional Affinity ~ High Citadel		SOURCEPAGE:p.3
+Grey Lands		NAMEISPI:YES		CATEGORY:Background		TYPE:Region		VISIBLE:DISPLAY		TEMPLATE:Regional Affinity ~ Grey Lands		SOURCEPAGE:p.3

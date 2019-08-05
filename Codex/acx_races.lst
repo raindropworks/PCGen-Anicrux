@@ -1,8 +1,8 @@
 # CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
 SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/sera	SOURCEDATE:2019-04
-#Source version α-190417
+#Source version before α-190804
 
 ###Block: Races
 # Race Name	Starting Feats		Base size			Size		Move			Reach	Ability													Nb Legs	Nb Hands	Main Race Type		Race Subtype				Type					Source Page		FACT
-Canid		STARTFEATS:1	FACT:BaseSize|M	SIZE:M	MOVE:Walk,30	REACH:5	ABILITY:Internal|AUTOMATIC|Racial Traits ~ Canid		LEGS:2	HANDS:2	RACETYPE:Humanoid	RACESUBTYPE:Canid		TYPE:Humanoid.PC	SOURCEPAGE:p. 3	FACT:IsPC|True
+Canid		STARTFEATS:1	FACT:BaseSize|M	SIZE:M	MOVE:Walk,30	REACH:5	ABILITY:Internal|AUTOMATIC|Racial Traits ~ Canid		LEGS:2	HANDS:2	RACETYPE:Humanoid	RACESUBTYPE:Canid		TYPE:Humanoid.PC	SOURCEPAGE:p. 4	FACT:IsPC|True
 Langomorph	STARTFEATS:1	FACT:BaseSize|M	SIZE:M	MOVE:Walk,40	REACH:5	ABILITY:Internal|AUTOMATIC|Racial Traits ~ Langomorph	LEGS:2	HANDS:2	RACETYPE:Humanoid	RACESUBTYPE:Langomorph	TYPE:Humanoid.PC	SOURCEPAGE:p. 5	FACT:IsPC|True
