@@ -21,6 +21,8 @@ INFOTEXT:Various tweaks and patches for Pathfinder games played by members of Pu
 #Do Not Remove Comment
 #EXTRAFILE:OGL.txt
 
+EQUIPMENT:support/stlc_equip_magic_items.lst|!PRECAMPAIGN:1,INCLUDES=Sargava the Lost Colony
+
 KIT:pdz_kits.lst
 TEMPLATE:pdz_templates.lst
 ABILITY:pdz_abilities.lst
