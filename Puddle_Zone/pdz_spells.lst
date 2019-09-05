@@ -1,0 +1,4 @@
+# CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Puddle Zone Compatability Patches	SOURCESHORT:PDZ	SOURCEWEB:https://puddle.zone/sera	SOURCEDATE:2019-04
+
+Expansion												TARGETAREA:You		SOURCEPAGE:p.110		DESC:Become one size category larger.		TEMPDESC:Grants bonuses dependent on change in size		TEMPBONUS:ANYPC|COMBAT|TOHIT.GRAPPLE|5*%CHOICE|TYPE=Size		TEMPBONUS:ANYPC|VAR|SizeIncrease|(-1)*%CHOICE		TEMPBONUS:ANYPC|SIZEMOD|NUMBER|%CHOICE		TEMPBONUS:ANYPC|STAT|STR|2*%CHOICE|TYPE=Size		TEMPBONUS:ANYPC|STAT|DEX|(-2)*%CHOICE|TYPE=Size		TEMPBONUS:ANYPC|VAR|DamageSizeAdjustment|1		TEMPBONUS:ANYPC|COMBAT|DAMAGESIZE|%CHOICE		TEMPVALUE:MIN=1|MAX=2|TITLE=Choose size increase steps.		SOURCELONG:Psionics Unleashed		SOURCESHORT:PsU		SOURCEWEB:http://dreamscarredpress.com/dragonfly/Store/product/pid=69.html		SOURCEDATE:2010-12

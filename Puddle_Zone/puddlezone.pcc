@@ -23,8 +23,10 @@ INFOTEXT:Various tweaks and patches for Pathfinder games played by members of Pu
 
 EQUIPMENT:support/stlc_equip_magic_items.lst|!PRECAMPAIGN:1,INCLUDES=Sargava the Lost Colony
 
+BIOSET:pdz_biosettings.lst
 KIT:pdz_kits.lst
 TEMPLATE:pdz_templates.lst
 ABILITY:pdz_abilities.lst
 DEITY:pdz_deities.lst
 ABILITY:pdz_abilities_race.lst
+SPELL:pdz_spells.lst
