@@ -27,6 +27,7 @@ BIOSET:pdz_biosettings.lst
 KIT:pdz_kits.lst
 TEMPLATE:pdz_templates.lst
 ABILITY:pdz_abilities.lst
+ABILITY:pdz_feats.lst
 DEITY:pdz_deities.lst
 ABILITY:pdz_abilities_race.lst
 SPELL:pdz_spells.lst
