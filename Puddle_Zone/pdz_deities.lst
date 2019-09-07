@@ -36,6 +36,8 @@ Tulis		NAMEISPI:YES		DOMAINS:Liberation,Nobility,Protection,Strength|PREALIGN:LG
 
 Beory		NAMEISPI:YES		DOMAINS:Animal,Earth,Plant,Water,Weather|PREALIGN:TN,NG,NE,LN,CN		DESC:The Oerth Mother		DEITYWEAP:Club		ALIGN:TN		PANTHEON:Flan		SOURCELONG:World of Greyhawk Fantasy Game Setting		SOURCEDATE:1983-01
 
+Shinto		NAMEISPI:NO
+
 #####
 #The first field is the Deity Name, this is a required field and does not have a tag.
 #
