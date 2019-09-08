@@ -1,0 +1,36 @@
+SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/sera	SOURCEDATE:2019-04
+#Source version before α-190804
+
+# ==============================
+# RACE ABILITIES
+# ==============================
+
+# ------------------------------
+# Nekomimi
+# ------------------------------
+
+###Block: Racial Abilities
+# Ability Name						Category of Ability	Define									Ability																									Source Page
+Racial Traits ~ Nekomimi			CATEGORY:Internal																																				SOURCEPAGE:p.8
+CATEGORY=Internal|Racial Traits ~ Nekomimi.MOD		DEFINE:Nekomimi_ReplaceAbilityScores|0		ABILITY:Nekomimi Racial Trait|AUTOMATIC|Nekomimi ~ Ability Scores|PREVAREQ:Nekomimi_ReplaceAbilityScores,0
+CATEGORY=Internal|Racial Traits ~ Nekomimi.MOD		DEFINE:Nekomimi_ReplaceType|0				ABILITY:Nekomimi Racial Trait|AUTOMATIC|Nekomimi ~ Type|PREVAREQ:Nekomimi_ReplaceType,0
+CATEGORY=Internal|Racial Traits ~ Nekomimi.MOD		DEFINE:Nekomimi_ReplaceSize|0				ABILITY:Nekomimi Racial Trait|AUTOMATIC|Nekomimi ~ Size|PREVAREQ:Nekomimi_ReplaceSize,0
+CATEGORY=Internal|Racial Traits ~ Nekomimi.MOD		DEFINE:Nekomimi_ReplaceSpeed|0				ABILITY:Nekomimi Racial Trait|AUTOMATIC|Nekomimi ~ Speed|PREVAREQ:Nekomimi_ReplaceSpeed,0
+CATEGORY=Internal|Racial Traits ~ Nekomimi.MOD		DEFINE:Nekomimi_ReplaceVision|0			ABILITY:Nekomimi Racial Trait|AUTOMATIC|Nekomimi ~ Vision|PREVAREQ:Nekomimi_ReplaceVision,0
+CATEGORY=Internal|Racial Traits ~ Nekomimi.MOD		DEFINE:Nekomimi_ReplaceRacialSkills|0	ABILITY:Nekomimi Racial Trait|AUTOMATIC|Nekomimi ~ Racial Skills|PREVAREQ:Nekomimi_ReplaceRacialSkills,0
+CATEGORY=Internal|Racial Traits ~ Nekomimi.MOD		DEFINE:Nekomimi_ReplaceCatAffinity|0		ABILITY:Nekomimi Racial Trait|AUTOMATIC|Nekomimi ~ Cat Affinity|PREVAREQ:Nekomimi_ReplaceCatAffinity,0
+CATEGORY=Internal|Racial Traits ~ Nekomimi.MOD		DEFINE:Nekomimi_ReplaceFortuneFavored|0				ABILITY:Nekomimi Racial Trait|AUTOMATIC|Nekomimi ~ Fortune Favored|PREVAREQ:Nekomimi_ReplaceFortuneFavored,0
+CATEGORY=Internal|Racial Traits ~ Nekomimi.MOD		DEFINE:Nekomimi_ReplaceLanguages|0			ABILITY:Nekomimi Racial Trait|AUTOMATIC|Nekomimi ~ Languages|PREVAREQ:Nekomimi_ReplaceLanguages,0
+
+###Block: Default Racial Traits
+# Ability Name												Unique Key						Category of Ability				Type																													Description																																															Template/Auto Language/Ability/Combat bonus/Bonus to skill/Stat bonus/Weapon prof. bonus/Vision			Source Page				Aspects
++2 Dexterity, +2 Charisma								KEY:Nekomimi ~ Ability Scores	CATEGORY:Special Ability	TYPE:RacialTraits.Nekomimi Racial Trait.Racial Ability Scores														DESC:Nekomimi are agile and very charming.																																							BONUS:STAT|DEX|2|TYPE=Racial	BONUS:STAT|CHA|2|TYPE=Racial						SOURCEPAGE:p.8
+Nekomimi												KEY:Nekomimi ~ Type				CATEGORY:Special Ability	TYPE:RacialTraits.Nekomimi Racial Trait.Nekomimi Racial Default.Racial Type											DESC:Nekomimis are humanoids with the Kemonomimi subtype.																																																								SOURCEPAGE:p.8
+Medium													KEY:Nekomimi ~ Size				CATEGORY:Special Ability	TYPE:RacialTraits.Nekomimi Racial Trait.Nekomimi Racial Default.Racial Size											DESC:Nekomimis are Medium creatures and have no bonuses or penalties due to their size.																																																	SOURCEPAGE:p.8
+Normal Speed											KEY:Nekomimi ~ Speed			CATEGORY:Special Ability	TYPE:RacialTraits.Nekomimi Racial Trait.Nekomimi Racial Default.Racial Speed										DESC:Nekomimis have a base speed of 30 feet.																																																											SOURCEPAGE:p.8
+Low-Light Vision										KEY:Nekomimi ~ Vision			CATEGORY:Special Ability	TYPE:RacialTraits.Nekomimi Racial Trait.Nekomimi Racial Default.SpecialQuality.Extraordinary.Racial Vision.Vision	DESC:Nekomimis can see twice as far as humans in conditions of dim light.																															VISION:Low-Light Vision																SOURCEPAGE:p.8			ASPECT:Vision|Low-Light Vision
+Racial Skills											KEY:Nekomimi ~ Racial Skills	CATEGORY:Special Ability	TYPE:RacialTraits.Nekomimi Racial Trait.Nekomimi Racial Default.SpecialQuality										DESC:Nekomimi have a +2 racial bonus to Climb and Perception checks.  They learn to climb almost as soon as they can walk, and they have keen senses.												BONUS:SKILL|Climb|2|TYPE=Racial		BONUS:SKILL|Perception|2|TYPE=Racial			SOURCEPAGE:p.8
+#Needs to be updated to only apply +4 for cats and cat-like beasts
+Cat Affinity											KEY:Nekomimi ~ Cat Affinity		CATEGORY:Special Ability	TYPE:RacialTraits.Nekomimi Racial Trait.Nekomimi Racial Default.SpecialQuality										DESC:Nekomimi have a +4 racial bonus to Handle Animal and wild empathy checks made to interact with cats and cat-like beasts.  All kemonomimi have affinity for their animal kin.					BONUS:SKILL|Handle Animal|4|TYPE=Racial												SOURCEPAGE:p.8
+Fortune's Favored										KEY:Nekomimi ~ Fortune Favored	CATEGORY:Special Ability	TYPE:RacialTraits.Nekomimi Racial Trait.Nekomimi Racial Default.SpecialQuality										DESC:Nekomimi can reroll a single dice roll once per day.																																																								SOURCEPAGE:p.8
+Languages												KEY:Nekomimi ~ Languages		CATEGORY:Special Ability	TYPE:RacialTraits.Nekomimi Racial Trait.Nekomimi Racial Default.Racial Language										DESC:Kemonomimi begin playing speaking Common and Sylvan.  Kemonomimi with high Intelligence scores can choose from the following languages: Catfolk, Celestial, Giant, Goblin, Tengu, and Vanara.	LANGBONUS:Catfolk,Celestial,Giant,Goblin,Tengu,Vanara		AUTO:LANG|Common|Sylvan	SOURCEPAGE:p.8

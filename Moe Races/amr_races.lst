@@ -1,0 +1,8 @@
+# CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Moe Races	SOURCESHORT:AMR	SOURCEWEB:https://amoragame.com	SOURCEDATE:2011-01
+#Source version before α-190804
+
+###Block: Races
+# Race Name	Starting Feats		Base size			Size		Move			Reach	Ability													Nb Legs	Nb Hands	Main Race Type		Race Subtype				Type					Source Page		FACT
+
+Nekomimi		STARTFEATS:1		FACT:BaseSize|M		SIZE:M		MOVE:Walk,30		REACH:5		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Nekomimi		LEGS:2		HANDS:2		RACETYPE:Humanoid		RACESUBTYPE:Kemonomimi		TYPE:Humanoid.PC		SOURCEPAGE:p.8		FACT:IsPC|True
