@@ -1,5 +1,4 @@
-#SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/sera	SOURCEDATE:2019-04
-#Source version before α-190804
+SOURCELONG:Moe Races	SOURCESHORT:AMR	SOURCEWEB:https://amoragame.com	SOURCEDATE:2011-01
 
 ###Block: Racial Traits Categories
 ABILITYCATEGORY:Nekomimi Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Nekomimi Racial Trait			PLURAL:Nekomimi Racial Traits		DISPLAYLOCATION:Racial Abilities
