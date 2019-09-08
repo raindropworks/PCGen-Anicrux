@@ -24,5 +24,7 @@ INFOTEXT:New races based on legends of the Kami and youkai
 
 #Core LST files
 ABILITY:amr_abilities_race.lst
+ABILITYCATEGORY:amr_abilitycategories.lst
 #BIOSET:amr_biosettings.lst
 RACE:amr_races.lst
+SKILL:amr_skills.lst

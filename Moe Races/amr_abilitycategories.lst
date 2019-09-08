@@ -1,0 +1,6 @@
+#SOURCELONG:The Anicruian Codex	SOURCESHORT:ACX	SOURCEWEB:https://puddle.zone/sera	SOURCEDATE:2019-04
+#Source version before α-190804
+
+###Block: Racial Traits Categories
+ABILITYCATEGORY:Nekomimi Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Nekomimi Racial Trait			PLURAL:Nekomimi Racial Traits		DISPLAYLOCATION:Racial Abilities
+#ABILITYCATEGORY:Langomorph Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Langomorph Racial Trait	PLURAL:Langomorph Racial Traits	DISPLAYLOCATION:Racial Abilities
