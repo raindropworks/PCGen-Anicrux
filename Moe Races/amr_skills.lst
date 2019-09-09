@@ -58,4 +58,5 @@ SOURCELONG:Moe Races	SOURCESHORT:AMR	SOURCEWEB:https://amoragame.com	SOURCEDATE:
 #List File Tag Index, you can find them listed under the topic "PRExxx tags".
 #
 #The SOURCEPAGE tag can be used to hold a reference to where you can find the spell. This will be displayed in PCGen.
+Handle Animal.MOD		SITUATION:red pandas and similar beasts
 Handle Animal.MOD		SITUATION:cat and cat-like beasts

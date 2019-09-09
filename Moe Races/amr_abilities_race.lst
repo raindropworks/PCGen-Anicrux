@@ -3,6 +3,36 @@ SOURCELONG:Moe Races	SOURCESHORT:AMR	SOURCEWEB:https://amoragame.com	SOURCEDATE:
 # ==============================
 # RACE ABILITIES
 # ==============================
+# ------------------------------
+# Akaimimi
+# ------------------------------
+
+###Block: Racial Abilities
+# Ability Name						Category of Ability	Define									Ability																									Source Page
+Racial Traits ~ Akaimimi			CATEGORY:Internal																																				SOURCEPAGE:p.8
+CATEGORY=Internal|Racial Traits ~ Akaimimi.MOD		DEFINE:Akaimimi_ReplaceAbilityScores|0		ABILITY:Akaimimi Racial Trait|AUTOMATIC|Akaimimi ~ Ability Scores|PREVAREQ:Akaimimi_ReplaceAbilityScores,0
+CATEGORY=Internal|Racial Traits ~ Akaimimi.MOD		DEFINE:Akaimimi_ReplaceType|0				ABILITY:Akaimimi Racial Trait|AUTOMATIC|Akaimimi ~ Type|PREVAREQ:Akaimimi_ReplaceType,0
+CATEGORY=Internal|Racial Traits ~ Akaimimi.MOD		DEFINE:Akaimimi_ReplaceSize|0				ABILITY:Akaimimi Racial Trait|AUTOMATIC|Akaimimi ~ Size|PREVAREQ:Akaimimi_ReplaceSize,0
+CATEGORY=Internal|Racial Traits ~ Akaimimi.MOD		DEFINE:Akaimimi_ReplaceSpeed|0				ABILITY:Akaimimi Racial Trait|AUTOMATIC|Akaimimi ~ Speed|PREVAREQ:Akaimimi_ReplaceSpeed,0
+CATEGORY=Internal|Racial Traits ~ Akaimimi.MOD		DEFINE:Akaimimi_ReplaceVision|0			ABILITY:Akaimimi Racial Trait|AUTOMATIC|Akaimimi ~ Vision|PREVAREQ:Akaimimi_ReplaceVision,0
+CATEGORY=Internal|Racial Traits ~ Akaimimi.MOD		DEFINE:Akaimimi_ReplaceRacialSkills|0	ABILITY:Akaimimi Racial Trait|AUTOMATIC|Akaimimi ~ Racial Skills|PREVAREQ:Akaimimi_ReplaceRacialSkills,0
+CATEGORY=Internal|Racial Traits ~ Akaimimi.MOD		DEFINE:Akaimimi_ReplaceRedPandaAffinity|0		ABILITY:Akaimimi Racial Trait|AUTOMATIC|Akaimimi ~ Red Panda Affinity|PREVAREQ:Akaimimi_ReplaceRedPandaAffinity,0
+CATEGORY=Internal|Racial Traits ~ Akaimimi.MOD		DEFINE:Akaimimi_ReplaceInsightfulQuestion|0				ABILITY:Akaimimi Racial Trait|AUTOMATIC|Akaimimi ~ Insightful Question|PREVAREQ:Akaimimi_ReplaceInsightfulQuestion,0
+CATEGORY=Internal|Racial Traits ~ Akaimimi.MOD		DEFINE:Akaimimi_ReplaceLanguages|0			ABILITY:Akaimimi Racial Trait|AUTOMATIC|Akaimimi ~ Languages|PREVAREQ:Akaimimi_ReplaceLanguages,0
+
+###Block: Default Racial Traits
+# Ability Name												Unique Key						Category of Ability				Type																													Description																																															Template/Auto Language/Ability/Combat bonus/Bonus to skill/Stat bonus/Weapon prof. bonus/Vision			Source Page				Aspects
++2 Constitution, +2 Wisdom								KEY:Akaimimi ~ Ability Scores	CATEGORY:Special Ability	TYPE:RacialTraits.Akaimimi Racial Trait.Racial Ability Scores														DESC:Akaimimi try to keep both their bodies and their spirits resilient and healthy.																																							BONUS:STAT|CON|2|TYPE=Racial	BONUS:STAT|WIS|2|TYPE=Racial						SOURCEPAGE:p.4
+Akaimimi												KEY:Akaimimi ~ Type				CATEGORY:Special Ability	TYPE:RacialTraits.Akaimimi Racial Trait.Akaimimi Racial Default.Racial Type											DESC:Akaimimis are humanoids with the Kemonomimi subtype.																																																								SOURCEPAGE:p.4
+Medium													KEY:Akaimimi ~ Size				CATEGORY:Special Ability	TYPE:RacialTraits.Akaimimi Racial Trait.Akaimimi Racial Default.Racial Size											DESC:Akaimimis are Medium creatures and have no bonuses or penalties due to their size.																																																	SOURCEPAGE:p.4
+Normal Speed											KEY:Akaimimi ~ Speed			CATEGORY:Special Ability	TYPE:RacialTraits.Akaimimi Racial Trait.Akaimimi Racial Default.Racial Speed										DESC:Akaimimis have a base speed of 30 feet.																																																											SOURCEPAGE:p.4
+Low-Light Vision										KEY:Akaimimi ~ Vision			CATEGORY:Special Ability	TYPE:RacialTraits.Akaimimi Racial Trait.Akaimimi Racial Default.SpecialQuality.Extraordinary.Racial Vision.Vision	DESC:Akaimimis can see twice as far as humans in conditions of dim light.																															VISION:Low-Light Vision																SOURCEPAGE:p.4			ASPECT:Vision|Low-Light Vision
+#Skill bonus currently broken
+Racial Skills											KEY:Akaimimi ~ Racial Skills	CATEGORY:Special Ability	TYPE:RacialTraits.Akaimimi Racial Trait.Akaimimi Racial Default.SpecialQuality										DESC:Akaimimi have a +2 racial bonus to Knowledge checks.  They are sagacious folk, with great respect for learning.												BONUS:SKILL|Knowledge|2|TYPE=Racial			SOURCEPAGE:p.4
+Red Panda Affinity											KEY:Akaimimi ~ Red Panda Affinity		CATEGORY:Special Ability	TYPE:RacialTraits.Akaimimi Racial Trait.Akaimimi Racial Default.SpecialQuality										DESC:Akaimimi have a +4 racial bonus to Handle Animal and wild empathy checks made to interact with red pandas and similar beasts.  All kemonomimi have affinity for their animal kin.					BONUS:SITUATION|Handle Animal=red pandas and similar beasts|4|TYPE=Racial					SOURCEPAGE:p.4
+#Divination is currently broken
+Insightful Question										KEY:Akaimimi ~ Insightful Question	CATEGORY:Special Ability	TYPE:RacialTraits.Akaimimi Racial Trait.Akaimimi Racial Default.SpecialQuality										DESC:Akaimimi often use their intuation to reach answers to their question.  They can use augury once per day as a spell-like ability.  Akaimimi with ki pool can spend two ki points to use it additional times per day.  After reaching 10th level, akaimimi can also use divination once per week.		SPELLS:Innate|TIMES=1|CASTERLEVEL=(max(TL,1))|Augury		SPELLS:Innate|TIMES=1|CASTERLEVEL(max(TL,1))|TIMEUNIT=Week|Divination|PRELEVEL:MIN=10																																																							SOURCEPAGE:p.4
+Languages												KEY:Akaimimi ~ Languages		CATEGORY:Special Ability	TYPE:RacialTraits.Akaimimi Racial Trait.Akaimimi Racial Default.Racial Language										DESC:Kemonomimi begin playing speaking Common and Sylvan.  Kemonomimi with high Intelligence scores can choose from the following languages: Catfolk, Celestial, Giant, Goblin, Tengu, and Vanara.		TEMPLATE:Race Bonus Language ~ Catfolk|Race Bonus Language ~ Celestial|Race Bonus Language ~ Giant|Race Bonus Language ~ Goblin|Race Bonus Language ~ Tengu|Race Bonus Language ~ Vanaran		AUTO:LANG|Common|Sylvan	SOURCEPAGE:p.8
 
 # ------------------------------
 # Nekomimi
