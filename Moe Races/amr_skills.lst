@@ -60,3 +60,4 @@ SOURCELONG:Moe Races	SOURCESHORT:AMR	SOURCEWEB:https://amoragame.com	SOURCEDATE:
 #The SOURCEPAGE tag can be used to hold a reference to where you can find the spell. This will be displayed in PCGen.
 Handle Animal.MOD		SITUATION:red pandas and similar beasts
 Handle Animal.MOD		SITUATION:cat and cat-like beasts
+Handle Animal.MOD		SITUATION:racoons and small omnivores

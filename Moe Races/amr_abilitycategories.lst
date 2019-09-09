@@ -1,5 +1,7 @@
 #SOURCELONG:Moe Races	SOURCESHORT:AMR	SOURCEWEB:https://amoragame.com	SOURCEDATE:2011-01
 
 ###Block: Racial Traits Categories
+
 ABILITYCATEGORY:Akaimimi Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Akaimimi Racial Trait	PLURAL:Akaimimi Racial Traits	DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Araiguma Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Araiguma Racial Trait	PLURAL:Akaimimi Racial Traits	DISPLAYLOCATION:Racial Abilities
 ABILITYCATEGORY:Nekomimi Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Nekomimi Racial Trait			PLURAL:Nekomimi Racial Traits		DISPLAYLOCATION:Racial Abilities
