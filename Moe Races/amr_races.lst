@@ -3,6 +3,7 @@ SOURCELONG:Moe Races	SOURCESHORT:AMR	SOURCEWEB:https://amoragame.com	SOURCEDATE:
 
 ###Block: Races
 # Race Name	Starting Feats		Base size			Size		Move			Reach	Ability													Nb Legs	Nb Hands	Main Race Type		Race Subtype				Type					Source Page		FACT
-Akaimimi		STARTFEATS:1		FACT:BaseSize|M		SIZE:M		MOVE:Walk,30		REACH:5		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Akaimimi		LEGS:2		HANDS:2		RACETYPE:Humanoid		RACESUBTYPE:Kemonomimi		TYPE:Humanoid.PC		SOURCEPAGE:p.8		FACT:IsPC|True
-Araiguma		STARTFEATS:1		FACT:BaseSize|M		SIZE:M		MOVE:Walk,30		REACH:5		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Araiguma		LEGS:2		HANDS:2		RACETYPE:Humanoid		RACESUBTYPE:Kemonomimi		TYPE:Humanoid.PC		SOURCEPAGE:p.8		FACT:IsPC|True
+Akaimimi		STARTFEATS:1		FACT:BaseSize|M		SIZE:M		MOVE:Walk,30		REACH:5		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Akaimimi		LEGS:2		HANDS:2		RACETYPE:Humanoid		RACESUBTYPE:Kemonomimi		TYPE:Humanoid.PC		SOURCEPAGE:p.4		FACT:IsPC|True
+Araiguma		STARTFEATS:1		FACT:BaseSize|M		SIZE:M		MOVE:Walk,30		REACH:5		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Araiguma		LEGS:2		HANDS:2		RACETYPE:Humanoid		RACESUBTYPE:Kemonomimi		TYPE:Humanoid.PC		SOURCEPAGE:p.5		FACT:IsPC|True
+Inumimi		STARTFEATS:1		FACT:BaseSize|M		SIZE:M		MOVE:Walk,30		REACH:5		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Inumimi		LEGS:2		HANDS:2		RACETYPE:Humanoid		RACESUBTYPE:Kemonomimi		TYPE:Humanoid.PC		SOURCEPAGE:p.6		FACT:IsPC|True
 Nekomimi		STARTFEATS:1		FACT:BaseSize|M		SIZE:M		MOVE:Walk,30		REACH:5		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Nekomimi		LEGS:2		HANDS:2		RACETYPE:Humanoid		RACESUBTYPE:Kemonomimi		TYPE:Humanoid.PC		SOURCEPAGE:p.8		FACT:IsPC|True
