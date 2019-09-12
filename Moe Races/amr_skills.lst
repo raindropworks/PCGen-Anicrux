@@ -1,9 +1,11 @@
-SOURCELONG:Moe Races	SOURCESHORT:AMR	SOURCEWEB:https://amoragame.com	SOURCEDATE:2011-01
+# Wed Sep 11 23:25:20 2019 -- reformated by PCGen PrettyLST v6.08.00
+SOURCELONG:My Pathfinder Campaign	SOURCESHORT:MPC	SOURCEWEB:http://www.mpcwebsite.com	SOURCEDATE:2008-01
 
-Handle Animal.MOD		SITUATION:red pandas and similar beasts
-Handle Animal.MOD		SITUATION:racoons and small omnivores
-Handle Animal.MOD		SITUATION:dogs and wolves
-Handle Animal.MOD		SITUATION:foxes and jackals
-Handle Animal.MOD		SITUATION:cat and cat-like beasts
-Handle Animal.MOD		SITUATION:tanuki and tanuki-like beasts
-Handle Animal.MOD		SITUATION:herbivores and hares
+# Skill Name	Situational Skill
+Handle Animal.MOD	SITUATION:red pandas and similar beasts
+Handle Animal.MOD	SITUATION:racoons and small omnivores
+Handle Animal.MOD	SITUATION:dogs and wolves
+Handle Animal.MOD	SITUATION:foxes and jackals
+Handle Animal.MOD	SITUATION:cat and cat-like beasts
+Handle Animal.MOD	SITUATION:tanuki and tanuki-like beasts
+Handle Animal.MOD	SITUATION:herbivores and hares
