@@ -21,7 +21,6 @@ INFOTEXT:New races based on legends of the Kami and youkai
 #Do Not Remove Comment
 #EXTRAFILE:OGL Sec 15.txt
 
-
 #Core LST files
 ABILITY:amr_abilities_race.lst
 ABILITYCATEGORY:amr_abilitycategories.lst

@@ -1,14 +1,5 @@
 SOURCELONG:Moe Races	SOURCESHORT:AMR	SOURCEWEB:https://amoragame.com	SOURCEDATE:2011-01
 
-# ==============================
-# RACE ABILITIES
-# ==============================
-# ------------------------------
-# Akaimimi
-# ------------------------------
-
-###Block: Racial Abilities
-# Ability Name						Category of Ability	Define									Ability																									Source Page
 Racial Traits ~ Akaimimi			CATEGORY:Internal																																				SOURCEPAGE:p.4
 CATEGORY=Internal|Racial Traits ~ Akaimimi.MOD		DEFINE:Akaimimi_ReplaceAbilityScores|0		ABILITY:Akaimimi Racial Trait|AUTOMATIC|Akaimimi ~ Ability Scores|PREVAREQ:Akaimimi_ReplaceAbilityScores,0
 CATEGORY=Internal|Racial Traits ~ Akaimimi.MOD		DEFINE:Akaimimi_ReplaceType|0				ABILITY:Akaimimi Racial Trait|AUTOMATIC|Akaimimi ~ Type|PREVAREQ:Akaimimi_ReplaceType,0
@@ -20,8 +11,6 @@ CATEGORY=Internal|Racial Traits ~ Akaimimi.MOD		DEFINE:Akaimimi_ReplaceRedPandaA
 CATEGORY=Internal|Racial Traits ~ Akaimimi.MOD		DEFINE:Akaimimi_ReplaceInsightfulQuestion|0				ABILITY:Akaimimi Racial Trait|AUTOMATIC|Akaimimi ~ Insightful Question|PREVAREQ:Akaimimi_ReplaceInsightfulQuestion,0
 CATEGORY=Internal|Racial Traits ~ Akaimimi.MOD		DEFINE:Akaimimi_ReplaceLanguages|0			ABILITY:Akaimimi Racial Trait|AUTOMATIC|Akaimimi ~ Languages|PREVAREQ:Akaimimi_ReplaceLanguages,0
 
-###Block: Default Racial Traits
-# Ability Name												Unique Key						Category of Ability				Type																													Description																																															Template/Auto Language/Ability/Combat bonus/Bonus to skill/Stat bonus/Weapon prof. bonus/Vision			Source Page				Aspects
 +2 Constitution, +2 Wisdom								KEY:Akaimimi ~ Ability Scores	CATEGORY:Special Ability	TYPE:RacialTraits.Akaimimi Racial Trait.Racial Ability Scores														DESC:Akaimimi try to keep both their bodies and their spirits resilient and healthy.																																							BONUS:STAT|CON|2|TYPE=Racial	BONUS:STAT|WIS|2|TYPE=Racial						SOURCEPAGE:p.4
 Akaimimi												KEY:Akaimimi ~ Type				CATEGORY:Special Ability	TYPE:RacialTraits.Akaimimi Racial Trait.Akaimimi Racial Default.Racial Type											DESC:Akaimimis are humanoids with the Kemonomimi subtype.																																																								SOURCEPAGE:p.4
 Medium													KEY:Akaimimi ~ Size				CATEGORY:Special Ability	TYPE:RacialTraits.Akaimimi Racial Trait.Akaimimi Racial Default.Racial Size											DESC:Akaimimis are Medium creatures and have no bonuses or penalties due to their size.																																																	SOURCEPAGE:p.4
@@ -32,12 +21,6 @@ Red Panda Affinity											KEY:Akaimimi ~ Red Panda Affinity		CATEGORY:Special
 Insightful Question										KEY:Akaimimi ~ Insightful Question	CATEGORY:Special Ability	TYPE:RacialTraits.Akaimimi Racial Trait.Akaimimi Racial Default.SpecialQuality										DESC:Akaimimi often use their intuation to reach answers to their question.  They can use augury once per day as a spell-like ability.  Akaimimi with ki pool can spend two ki points to use it additional times per day.  After reaching 10th level, akaimimi can also use divination once per week.		SPELLS:Innate|TIMES=1|CASTERLEVEL=(max(TL,1))|Augury		SPELLS:Innate|TIMES=1|TIMEUNIT=Week|CASTERLEVEL=(max(TL,1))|Divination|PRELEVEL:MIN=10																																																							SOURCEPAGE:p.4
 Languages												KEY:Akaimimi ~ Languages		CATEGORY:Special Ability	TYPE:RacialTraits.Akaimimi Racial Trait.Akaimimi Racial Default.Racial Language										DESC:Kemonomimi begin playing speaking Common and Sylvan.  Kemonomimi with high Intelligence scores can choose from the following languages: Catfolk, Celestial, Giant, Goblin, Tengu, and Vanara.		TEMPLATE:Race Bonus Language ~ Catfolk|Race Bonus Language ~ Celestial|Race Bonus Language ~ Giant|Race Bonus Language ~ Goblin|Race Bonus Language ~ Tengu|Race Bonus Language ~ Vanaran		AUTO:LANG|Common|Sylvan	SOURCEPAGE:p.5
 
-# ------------------------------
-# Araiguma
-# ------------------------------
-
-###Block: Racial Abilities
-# Ability Name						Category of Ability	Define									Ability																									Source Page
 Racial Traits ~ Araiguma			CATEGORY:Internal																																				SOURCEPAGE:p.5
 CATEGORY=Internal|Racial Traits ~ Araiguma.MOD		DEFINE:Araiguma_ReplaceAbilityScores|0		ABILITY:Araiguma Racial Trait|AUTOMATIC|Araiguma ~ Ability Scores|PREVAREQ:Araiguma_ReplaceAbilityScores,0
 CATEGORY=Internal|Racial Traits ~ Araiguma.MOD		DEFINE:Araiguma_ReplaceType|0				ABILITY:Araiguma Racial Trait|AUTOMATIC|Araiguma ~ Type|PREVAREQ:Araiguma_ReplaceType,0
@@ -49,8 +32,6 @@ CATEGORY=Internal|Racial Traits ~ Araiguma.MOD		DEFINE:Araiguma_ReplaceCoonAffin
 CATEGORY=Internal|Racial Traits ~ Araiguma.MOD		DEFINE:Araiguma_ReplaceDowsing|0				ABILITY:Araiguma Racial Trait|AUTOMATIC|Araiguma ~ Dowsing|PREVAREQ:Araiguma_ReplaceDowsing,0
 CATEGORY=Internal|Racial Traits ~ Araiguma.MOD		DEFINE:Araiguma_ReplaceLanguages|0			ABILITY:Araiguma Racial Trait|AUTOMATIC|Araiguma ~ Languages|PREVAREQ:Araiguma_ReplaceLanguages,0
 
-###Block: Default Racial Traits
-# Ability Name												Unique Key						Category of Ability				Type																													Description																																															Template/Auto Language/Ability/Combat bonus/Bonus to skill/Stat bonus/Weapon prof. bonus/Vision			Source Page				Aspects
 +2 Constitution, +2 Intelligence								KEY:Araiguma ~ Ability Scores	CATEGORY:Special Ability	TYPE:RacialTraits.Araiguma Racial Trait.Racial Ability Scores														DESC:Araiguma are very hardy and very cunning																																							BONUS:STAT|CON|2|TYPE=Racial	BONUS:STAT|INT|2|TYPE=Racial						SOURCEPAGE:p.5
 Araiguma												KEY:Araiguma ~ Type				CATEGORY:Special Ability	TYPE:RacialTraits.Araiguma Racial Trait.Araiguma Racial Default.Racial Type											DESC:Araigumas are humanoids with the Kemonomimi subtype.																																																								SOURCEPAGE:p.5
 Medium													KEY:Araiguma ~ Size				CATEGORY:Special Ability	TYPE:RacialTraits.Araiguma Racial Trait.Araiguma Racial Default.Racial Size											DESC:Araigumas are Medium creatures and have no bonuses or penalties due to their size.																																																	SOURCEPAGE:p.5
@@ -61,12 +42,6 @@ Coon Affinity											KEY:Araiguma ~ Coon Affinity		CATEGORY:Special Ability	T
 Dowsing										KEY:Araiguma ~ Dowsing	CATEGORY:Special Ability	TYPE:RacialTraits.Araiguma Racial Trait.Araiguma Racial Default.SpecialQuality										DESC:Araiguma seem to have a certain degree of affinity for fresh water.  They can sense the presence of the nearest source of fresh water such as a spring, a stram, a pond, a lake, or a well as if using a locate object spell, though they must concentrate to maintain the effect.  An araiguma can purify food (but not water) as if using purify food and water by washing it in running water.																																																							SOURCEPAGE:p.5
 Languages												KEY:Araiguma ~ Languages		CATEGORY:Special Ability	TYPE:RacialTraits.Araiguma Racial Trait.Araiguma Racial Default.Racial Language										DESC:Kemonomimi begin playing speaking Common and Sylvan.  Kemonomimi with high Intelligence scores can choose from the following languages: Catfolk, Celestial, Giant, Goblin, Tengu, and Vanara.		TEMPLATE:Race Bonus Language ~ Catfolk|Race Bonus Language ~ Celestial|Race Bonus Language ~ Giant|Race Bonus Language ~ Goblin|Race Bonus Language ~ Tengu|Race Bonus Language ~ Vanaran		AUTO:LANG|Common|Sylvan	SOURCEPAGE:p.5
 
-# ------------------------------
-# Inumimi
-# ------------------------------
-
-###Block: Racial Abilities
-# Ability Name						Category of Ability	Define									Ability																									Source Page
 Racial Traits ~ Inumimi			CATEGORY:Internal																																				SOURCEPAGE:p.5
 CATEGORY=Internal|Racial Traits ~ Inumimi.MOD		DEFINE:Inumimi_ReplaceAbilityScores|0		ABILITY:Inumimi Racial Trait|AUTOMATIC|Inumimi ~ Ability Scores|PREVAREQ:Inumimi_ReplaceAbilityScores,0
 CATEGORY=Internal|Racial Traits ~ Inumimi.MOD		DEFINE:Inumimi_ReplaceType|0				ABILITY:Inumimi Racial Trait|AUTOMATIC|Inumimi ~ Type|PREVAREQ:Inumimi_ReplaceType,0
@@ -78,8 +53,6 @@ CATEGORY=Internal|Racial Traits ~ Inumimi.MOD		DEFINE:Inumimi_ReplaceCanineAffin
 CATEGORY=Internal|Racial Traits ~ Inumimi.MOD		DEFINE:Inumimi_ReplaceRepelMisfortune|0				ABILITY:Inumimi Racial Trait|AUTOMATIC|Inumimi ~ Repel Misfortune|PREVAREQ:Inumimi_ReplaceRepelMisfortune,0
 CATEGORY=Internal|Racial Traits ~ Inumimi.MOD		DEFINE:Inumimi_ReplaceLanguages|0			ABILITY:Inumimi Racial Trait|AUTOMATIC|Inumimi ~ Languages|PREVAREQ:Inumimi_ReplaceLanguages,0
 
-###Block: Default Racial Traits
-# Ability Name												Unique Key						Category of Ability				Type																													Description																																															Template/Auto Language/Ability/Combat bonus/Bonus to skill/Stat bonus/Weapon prof. bonus/Vision			Source Page				Aspects
 +2 Strength, +2 Wisdom								KEY:Inumimi ~ Ability Scores	CATEGORY:Special Ability	TYPE:RacialTraits.Inumimi Racial Trait.Racial Ability Scores														DESC:Inumimi are strong and deeply spiritual folk.																																							BONUS:STAT|STR|2|TYPE=Racial	BONUS:STAT|WIS|2|TYPE=Racial						SOURCEPAGE:p.6
 Inumimi												KEY:Inumimi ~ Type				CATEGORY:Special Ability	TYPE:RacialTraits.Inumimi Racial Trait.Inumimi Racial Default.Racial Type											DESC:Inumimis are humanoids with the Kemonomimi subtype.																																																								SOURCEPAGE:p.6
 Medium													KEY:Inumimi ~ Size				CATEGORY:Special Ability	TYPE:RacialTraits.Inumimi Racial Trait.Inumimi Racial Default.Racial Size											DESC:Inumimis are Medium creatures and have no bonuses or penalties due to their size.																																																	SOURCEPAGE:p.6
@@ -90,12 +63,6 @@ Canine Affinity											KEY:Inumimi ~ Canine Affinity		CATEGORY:Special Abilit
 Repel Misfortune										KEY:Inumimi ~ Repel Misfortune	CATEGORY:Special Ability	TYPE:RacialTraits.Inumimi Racial Trait.Inumimi Racial Default.SpecialQuality										DESC:Dog-spirits are traditional guardians against malign magic and so are their mortal descendants.  Inumimi have a +2 racial bonus to saving throws against curses and they grant the same bonus to adjacent allies, though bonus granted by multiple inumimi does not stack.																																																							SOURCEPAGE:p.6		ASPECT:SaveBonus|+2 vs. curses
 Languages												KEY:Inumimi ~ Languages		CATEGORY:Special Ability	TYPE:RacialTraits.Inumimi Racial Trait.Inumimi Racial Default.Racial Language										DESC:Kemonomimi begin playing speaking Common and Sylvan.  Kemonomimi with high Intelligence scores can choose from the following languages: Catfolk, Celestial, Giant, Goblin, Tengu, and Vanara.		TEMPLATE:Race Bonus Language ~ Catfolk|Race Bonus Language ~ Celestial|Race Bonus Language ~ Giant|Race Bonus Language ~ Goblin|Race Bonus Language ~ Tengu|Race Bonus Language ~ Vanaran		AUTO:LANG|Common|Sylvan	SOURCEPAGE:p.6
 
-# ------------------------------
-# Kitsunemimi
-# ------------------------------
-
-###Block: Racial Abilities
-# Ability Name						Category of Ability	Define									Ability																									Source Page
 Racial Traits ~ Kitsunemimi			CATEGORY:Internal																																				SOURCEPAGE:p.5
 CATEGORY=Internal|Racial Traits ~ Kitsunemimi.MOD		DEFINE:Kitsunemimi_ReplaceAbilityScores|0		ABILITY:Kitsunemimi Racial Trait|AUTOMATIC|Kitsunemimi ~ Ability Scores|PREVAREQ:Kitsunemimi_ReplaceAbilityScores,0
 CATEGORY=Internal|Racial Traits ~ Kitsunemimi.MOD		DEFINE:Kitsunemimi_ReplaceType|0				ABILITY:Kitsunemimi Racial Trait|AUTOMATIC|Kitsunemimi ~ Type|PREVAREQ:Kitsunemimi_ReplaceType,0
@@ -107,8 +74,6 @@ CATEGORY=Internal|Racial Traits ~ Kitsunemimi.MOD		DEFINE:Kitsunemimi_ReplaceFox
 CATEGORY=Internal|Racial Traits ~ Kitsunemimi.MOD		DEFINE:Kitsunemimi_ReplacePatientPlanner|0				ABILITY:Kitsunemimi Racial Trait|AUTOMATIC|Kitsunemimi ~ Patient Planner|PREVAREQ:Kitsunemimi_ReplacePatientPlanner,0
 CATEGORY=Internal|Racial Traits ~ Kitsunemimi.MOD		DEFINE:Kitsunemimi_ReplaceLanguages|0			ABILITY:Kitsunemimi Racial Trait|AUTOMATIC|Kitsunemimi ~ Languages|PREVAREQ:Kitsunemimi_ReplaceLanguages,0
 
-###Block: Default Racial Traits
-# Ability Name												Unique Key						Category of Ability				Type																													Description																																															Template/Auto Language/Ability/Combat bonus/Bonus to skill/Stat bonus/Weapon prof. bonus/Vision			Source Page				Aspects
 +2 Dexterity, +2 Intelligence								KEY:Kitsunemimi ~ Ability Scores	CATEGORY:Special Ability	TYPE:RacialTraits.Kitsunemimi Racial Trait.Racial Ability Scores														DESC:Kitsunemimi are gracious and smart.																																							BONUS:STAT|DEX|2|TYPE=Racial	BONUS:STAT|INT|2|TYPE=Racial						SOURCEPAGE:p.7
 Kitsunemimi												KEY:Kitsunemimi ~ Type				CATEGORY:Special Ability	TYPE:RacialTraits.Kitsunemimi Racial Trait.Kitsunemimi Racial Default.Racial Type											DESC:Kitsunemimis are humanoids with the Kemonomimi subtype.																																																								SOURCEPAGE:p.7
 Medium													KEY:Kitsunemimi ~ Size				CATEGORY:Special Ability	TYPE:RacialTraits.Kitsunemimi Racial Trait.Kitsunemimi Racial Default.Racial Size											DESC:Kitsunemimis are Medium creatures and have no bonuses or penalties due to their size.																																																	SOURCEPAGE:p.7
@@ -119,13 +84,6 @@ Fox Affinity											KEY:Kitsunemimi ~ Fox Affinity		CATEGORY:Special Ability	
 Patient Planner										KEY:Kitsunemimi ~ Patient Planner	CATEGORY:Special Ability	TYPE:RacialTraits.Kitsunemimi Racial Trait.Kitsunemimi Racial Default.SpecialQuality										DESC:Kitsunemimi gain +1 bonus when taking 10 on an ability or skill check and +2 bonus when taking 20.  Patience and smart planning are the key for their elaborate schemes.																																																							SOURCEPAGE:p.7
 Languages												KEY:Kitsunemimi ~ Languages		CATEGORY:Special Ability	TYPE:RacialTraits.Kitsunemimi Racial Trait.Kitsunemimi Racial Default.Racial Language										DESC:Kemonomimi begin playing speaking Common and Sylvan.  Kemonomimi with high Intelligence scores can choose from the following languages: Catfolk, Celestial, Giant, Goblin, Tengu, and Vanara.		TEMPLATE:Race Bonus Language ~ Catfolk|Race Bonus Language ~ Celestial|Race Bonus Language ~ Giant|Race Bonus Language ~ Goblin|Race Bonus Language ~ Tengu|Race Bonus Language ~ Vanaran		AUTO:LANG|Common|Sylvan	SOURCEPAGE:p.7
 
-
-# ------------------------------
-# Nekomimi
-# ------------------------------
-
-###Block: Racial Abilities
-# Ability Name						Category of Ability	Define									Ability																									Source Page
 Racial Traits ~ Nekomimi			CATEGORY:Internal																																				SOURCEPAGE:p.8
 CATEGORY=Internal|Racial Traits ~ Nekomimi.MOD		DEFINE:Nekomimi_ReplaceAbilityScores|0		ABILITY:Nekomimi Racial Trait|AUTOMATIC|Nekomimi ~ Ability Scores|PREVAREQ:Nekomimi_ReplaceAbilityScores,0
 CATEGORY=Internal|Racial Traits ~ Nekomimi.MOD		DEFINE:Nekomimi_ReplaceType|0				ABILITY:Nekomimi Racial Trait|AUTOMATIC|Nekomimi ~ Type|PREVAREQ:Nekomimi_ReplaceType,0
@@ -137,8 +95,6 @@ CATEGORY=Internal|Racial Traits ~ Nekomimi.MOD		DEFINE:Nekomimi_ReplaceCatAffini
 CATEGORY=Internal|Racial Traits ~ Nekomimi.MOD		DEFINE:Nekomimi_ReplaceFortuneFavored|0				ABILITY:Nekomimi Racial Trait|AUTOMATIC|Nekomimi ~ Fortune Favored|PREVAREQ:Nekomimi_ReplaceFortuneFavored,0
 CATEGORY=Internal|Racial Traits ~ Nekomimi.MOD		DEFINE:Nekomimi_ReplaceLanguages|0			ABILITY:Nekomimi Racial Trait|AUTOMATIC|Nekomimi ~ Languages|PREVAREQ:Nekomimi_ReplaceLanguages,0
 
-###Block: Default Racial Traits
-# Ability Name												Unique Key						Category of Ability				Type																													Description																																															Template/Auto Language/Ability/Combat bonus/Bonus to skill/Stat bonus/Weapon prof. bonus/Vision			Source Page				Aspects
 +2 Dexterity, +2 Charisma								KEY:Nekomimi ~ Ability Scores	CATEGORY:Special Ability	TYPE:RacialTraits.Nekomimi Racial Trait.Racial Ability Scores														DESC:Nekomimi are agile and very charming.																																							BONUS:STAT|DEX|2|TYPE=Racial	BONUS:STAT|CHA|2|TYPE=Racial						SOURCEPAGE:p.8
 Nekomimi												KEY:Nekomimi ~ Type				CATEGORY:Special Ability	TYPE:RacialTraits.Nekomimi Racial Trait.Nekomimi Racial Default.Racial Type											DESC:Nekomimis are humanoids with the Kemonomimi subtype.																																																								SOURCEPAGE:p.8
 Medium													KEY:Nekomimi ~ Size				CATEGORY:Special Ability	TYPE:RacialTraits.Nekomimi Racial Trait.Nekomimi Racial Default.Racial Size											DESC:Nekomimis are Medium creatures and have no bonuses or penalties due to their size.																																																	SOURCEPAGE:p.8
@@ -149,12 +105,6 @@ Cat Affinity											KEY:Nekomimi ~ Cat Affinity		CATEGORY:Special Ability	TYP
 Fortune's Favored										KEY:Nekomimi ~ Fortune Favored	CATEGORY:Special Ability	TYPE:RacialTraits.Nekomimi Racial Trait.Nekomimi Racial Default.SpecialQuality										DESC:Nekomimi can reroll a single dice roll once per day.																																																								SOURCEPAGE:p.8
 Languages												KEY:Nekomimi ~ Languages		CATEGORY:Special Ability	TYPE:RacialTraits.Nekomimi Racial Trait.Nekomimi Racial Default.Racial Language										DESC:Kemonomimi begin playing speaking Common and Sylvan.  Kemonomimi with high Intelligence scores can choose from the following languages: Catfolk, Celestial, Giant, Goblin, Tengu, and Vanara.		TEMPLATE:Race Bonus Language ~ Catfolk|Race Bonus Language ~ Celestial|Race Bonus Language ~ Giant|Race Bonus Language ~ Goblin|Race Bonus Language ~ Tengu|Race Bonus Language ~ Vanaran		AUTO:LANG|Common|Sylvan	SOURCEPAGE:p.8
 
-# ------------------------------
-# Tanukimimi
-# ------------------------------
-
-###Block: Racial Abilities
-# Ability Name						Category of Ability	Define									Ability																									Source Page
 Racial Traits ~ Tanukimimi			CATEGORY:Internal																																				SOURCEPAGE:p.8
 CATEGORY=Internal|Racial Traits ~ Tanukimimi.MOD		DEFINE:Tanukimimi_ReplaceAbilityScores|0		ABILITY:Tanukimimi Racial Trait|AUTOMATIC|Tanukimimi ~ Ability Scores|PREVAREQ:Tanukimimi_ReplaceAbilityScores,0
 CATEGORY=Internal|Racial Traits ~ Tanukimimi.MOD		DEFINE:Tanukimimi_ReplaceType|0				ABILITY:Tanukimimi Racial Trait|AUTOMATIC|Tanukimimi ~ Type|PREVAREQ:Tanukimimi_ReplaceType,0
@@ -166,8 +116,6 @@ CATEGORY=Internal|Racial Traits ~ Tanukimimi.MOD		DEFINE:Tanukimimi_ReplaceTanuk
 CATEGORY=Internal|Racial Traits ~ Tanukimimi.MOD		DEFINE:Tanukimimi_ReplaceSurprisingTenacity|0				ABILITY:Tanukimimi Racial Trait|AUTOMATIC|Tanukimimi ~ Surprising Tenacity|PREVAREQ:Tanukimimi_ReplaceSurprisingTenacity,0
 CATEGORY=Internal|Racial Traits ~ Tanukimimi.MOD		DEFINE:Tanukimimi_ReplaceLanguages|0			ABILITY:Tanukimimi Racial Trait|AUTOMATIC|Tanukimimi ~ Languages|PREVAREQ:Tanukimimi_ReplaceLanguages,0
 
-###Block: Default Racial Traits
-# Ability Name												Unique Key						Category of Ability				Type																													Description																																															Template/Auto Language/Ability/Combat bonus/Bonus to skill/Stat bonus/Weapon prof. bonus/Vision			Source Page				Aspects
 +2 Constitution, +2 Charisma								KEY:Tanukimimi ~ Ability Scores	CATEGORY:Special Ability	TYPE:RacialTraits.Tanukimimi Racial Trait.Racial Ability Scores														DESC:Tanukimimi are surprisingly resilient and sociable.																																							BONUS:STAT|CON|2|TYPE=Racial	BONUS:STAT|CHA|2|TYPE=Racial						SOURCEPAGE:p.9
 Tanukimimi												KEY:Tanukimimi ~ Type				CATEGORY:Special Ability	TYPE:RacialTraits.Tanukimimi Racial Trait.Tanukimimi Racial Default.Racial Type											DESC:Tanukimimis are humanoids with the Kemonomimi subtype.																																																								SOURCEPAGE:p.9
 Medium													KEY:Tanukimimi ~ Size				CATEGORY:Special Ability	TYPE:RacialTraits.Tanukimimi Racial Trait.Tanukimimi Racial Default.Racial Size											DESC:Tanukimimis are Medium creatures and have no bonuses or penalties due to their size.																																																	SOURCEPAGE:p.9
@@ -179,12 +127,6 @@ Surprising Tenacity		KEY:Tanukimimi ~ Surprising Tenacity		CATEGORY:Special Abil
 
 Languages												KEY:Tanukimimi ~ Languages		CATEGORY:Special Ability	TYPE:RacialTraits.Tanukimimi Racial Trait.Tanukimimi Racial Default.Racial Language										DESC:Kemonomimi begin playing speaking Common and Sylvan.  Kemonomimi with high Intelligence scores can choose from the following languages: Catfolk, Celestial, Giant, Goblin, Tengu, and Vanara.		TEMPLATE:Race Bonus Language ~ Catfolk|Race Bonus Language ~ Celestial|Race Bonus Language ~ Giant|Race Bonus Language ~ Goblin|Race Bonus Language ~ Tengu|Race Bonus Language ~ Vanaran		AUTO:LANG|Common|Sylvan	SOURCEPAGE:p.9
 
-# ------------------------------
-# Usagimimi
-# ------------------------------
-
-###Block: Racial Abilities
-# Ability Name						Category of Ability	Define									Ability																									Source Page
 Racial Traits ~ Usagimimi			CATEGORY:Internal																																				SOURCEPAGE:p.8
 CATEGORY=Internal|Racial Traits ~ Usagimimi.MOD		DEFINE:Usagimimi_ReplaceAbilityScores|0		ABILITY:Usagimimi Racial Trait|AUTOMATIC|Usagimimi ~ Ability Scores|PREVAREQ:Usagimimi_ReplaceAbilityScores,0
 CATEGORY=Internal|Racial Traits ~ Usagimimi.MOD		DEFINE:Usagimimi_ReplaceType|0				ABILITY:Usagimimi Racial Trait|AUTOMATIC|Usagimimi ~ Type|PREVAREQ:Usagimimi_ReplaceType,0
@@ -196,8 +138,6 @@ CATEGORY=Internal|Racial Traits ~ Usagimimi.MOD		DEFINE:Usagimimi_ReplaceHareAff
 CATEGORY=Internal|Racial Traits ~ Usagimimi.MOD		DEFINE:Usagimimi_ReplaceCreativeCraftsmanship|0				ABILITY:Usagimimi Racial Trait|AUTOMATIC|Usagimimi ~ Creative Craftsmanship|PREVAREQ:Usagimimi_ReplaceCreativeCraftsmanship,0
 CATEGORY=Internal|Racial Traits ~ Usagimimi.MOD		DEFINE:Usagimimi_ReplaceLanguages|0			ABILITY:Usagimimi Racial Trait|AUTOMATIC|Usagimimi ~ Languages|PREVAREQ:Usagimimi_ReplaceLanguages,0
 
-###Block: Default Racial Traits
-# Ability Name												Unique Key						Category of Ability				Type																													Description																																															Template/Auto Language/Ability/Combat bonus/Bonus to skill/Stat bonus/Weapon prof. bonus/Vision			Source Page				Aspects
 +2 Dexterity, +2 Wisdom								KEY:Usagimimi ~ Ability Scores	CATEGORY:Special Ability	TYPE:RacialTraits.Usagimimi Racial Trait.Racial Ability Scores														DESC:Usagimimi have quick reflexes and equally fast intuition																																							BONUS:STAT|DEX|2|TYPE=Racial	BONUS:STAT|WIS|2|TYPE=Racial						SOURCEPAGE:p.10
 Usagimimi												KEY:Usagimimi ~ Type				CATEGORY:Special Ability	TYPE:RacialTraits.Usagimimi Racial Trait.Usagimimi Racial Default.Racial Type											DESC:Usagimimis are humanoids with the Kemonomimi subtype.																																																								SOURCEPAGE:p.10
 Medium													KEY:Usagimimi ~ Size				CATEGORY:Special Ability	TYPE:RacialTraits.Usagimimi Racial Trait.Usagimimi Racial Default.Racial Size											DESC:Usagimimis are Medium creatures and have no bonuses or penalties due to their size.																																																	SOURCEPAGE:p.10
