@@ -67,3 +67,5 @@ SOURCELONG:Puddle Zone Compatability Patches	SOURCESHORT:PDZ	SOURCEWEB:https://p
 #(such as when a RACETYPE tag exists in a template) the characters race type changes to the newly applied RACETYPE, a character can have only one race type at a time.
 #(RACETYPE is used internally by PCGen for matching up with Monster HD, and for references to race, such as the Rangers Favored Enemy.)
 Add languages to non-PC monsters	LANGBONUS:ALL		TEMPLATE:Race Bonus Language ~ All
+
+Eastern Proficiencies		AUTO:WEAPONPROF|TYPE=Eastern|TYPE=EasternWeapon
