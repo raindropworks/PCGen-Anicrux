@@ -1,0 +1,22 @@
+# CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
+CAMPAIGN:Book of Erotic Fantasy - Remix
+GAMEMODE:Pathfinder
+RANK:9
+GENRE:Fantasy
+BOOKTYPE:Homebrew
+SETTING: TBD
+TYPE:Homebrew.PathfinderHomebrew
+PUBNAMELONG:Book of Erotic Fantasy - Remix
+PUBNAMESHORT:BoEF
+PUBNAMEWEB:Book of Erotic Fantasy - Remix
+SOURCELONG:BoEF
+SOURCESHORT:BEF
+SOURCEWEB:https://google.com
+SOURCEDATE:2019-09
+ISOGL:YES
+COPYRIGHT: TBD
+
+INFOTEXT:A piecemeal, and likely hackish attempt to convert the 3.5 'Book of Erotic Fantasy' to something somewhat playable in Pathfinder rulesets.
+
+DOMAIN:bef_domains.lst
+SPELL:bef_spells.lst

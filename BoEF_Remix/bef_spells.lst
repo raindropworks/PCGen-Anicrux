@@ -1,0 +1,19 @@
+# CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Book of Erotic Fantasy - Remix	SOURCESHORT:BEF		SOURCEDATE:2019-09
+
+#0 level - analyze fertility, detect pregnancy
+#1 level - block the seed, suspicion, vision of exquisite pleasure
+
+Analyze Fertility		CLASSES:Cleric,Druid=0|Paladin,Ranger=1		DOMAINS:Fertility=0		SCHOOL:Divination		TYPE:Divine		COMPS:V S DF		CASTTIME:1 standard action		RANGE:Touch		TARGETAREA:Creature Touched		DURATION:Instantaneous		SAVEINFO:Will negates (Harmless)		SPELLRES:No		DESC:This spell gives the caster an insight into the reproductive capabilities of the target, including when a female is most fertile.  It identifies problems such as impotence and infertility.  It also reveals any conception-influencing spells such as block the seed and fiendish seed as well as their caster level.		SOURCEPAGE:p.99
+
+Block the Seed		CLASSES:Bard,Cleric,Sorcerer,Wizard=1		SCHOOL:Abjuration		TYPE:Divine.Arcane		COMPS:V S M (A lemon rind)		CASTTIME:1 standard action		RANGE:Personal		TARGETAREA:You		DURATION:1 day/level		DESC:You are incapable of getting someone pregnant or becoming impregnated for the duration of this spell.  You are still vulnerable to sexually transmitted diseases unless protective measures are taken.		SOURCEPAGE:101
+
+Detect Pregnancy		CLASSES:Cleric,Druid=0|Paladin,Ranger=1		SCHOOL:Divination		TYPE:Divine		COMPS:V S DF		CASTTIME:1 standard action		RANGE:Touch		TARGETAREA:One living creature wearing armor, clothing or adornments		DURATION:Instantaneous		SAVEINFO:Will negates (Harmless)		SPELLRES:No		DESC:You can tell if the creature touched is pregnant or is hosting another creature.		SOURCEPAGE:p.103
+
+Suspicion		CLASSES:Bard,Cleric,Druid,Sorcerer,Wizard=1		SCHOOL:Divination		TYPE:Divine.Arcane		COMPS:V S DF		CASTTIME:1 standard action		RANGE:Touch		TARGETAREA:Creature touched		DURATION:Instantaneous		SAVEINFO:Will negates		SPELLRES:Yes		DESC:This spell gives the caster an image of the target's last sexual encounter.  The caster has a brief mental image of the person with whom the target last had sex.  If the target last masturbated, the image is of the target.		SOURCEPAGE:p.116
+
+Vision of Exquisite Pleasure		CLASSES:Bard,Cleric=1		DOMAINS:Charm=1		SCHOOL:Enchantment		TYPE:Divine		COMPS:V S DF		CASTTIME:1 standard action		RANGE:Close (25' + 5/lvl)		TARGETAREA:One person		DURATION:1 round/level (D)		SAVEINFO:Will negates		SPELLRES:Yes		DESC:Images of tantalizing and overwhelming sexual pleasure consume the affected target, causing him to pause in his tracks and revel in eroticism.  While effected by the spell, the person is stunned.  He can make a Will save each round to shake off the effect.		SOURCEPAGE:p.117
+
+#Teleport		CLASSES:Sorcerer,Wizard=5		DOMAINS:Travel=5		SCHOOL:Conjuration	SUBSCHOOL:Teleportation		TYPE:Arcane.Divine	COMPS:V		CASTTIME:1 standard action		RANGE:Personal and touch	TARGETAREA:You and touched objects or other touched willing creatures		DURATION:Instantaneous		SAVEINFO:None and Will negates (object)		SPELLRES:No and Yes (object)		DESC:Instantly transports you as far as (CASTERLEVEL*100) miles.		SOURCEPAGE:SpellsT-Z	ITEM:Potion
+
+#Expansion												TARGETAREA:You		SOURCEPAGE:p.110		DESC:Become one size category larger.		TEMPDESC:Grants bonuses dependent on change in size		TEMPBONUS:ANYPC|COMBAT|TOHIT.GRAPPLE|5*%CHOICE|TYPE=Size		TEMPBONUS:ANYPC|VAR|SizeIncrease|(-1)*%CHOICE		TEMPBONUS:ANYPC|SIZEMOD|NUMBER|%CHOICE		TEMPBONUS:ANYPC|STAT|STR|2*%CHOICE|TYPE=Size		TEMPBONUS:ANYPC|STAT|DEX|(-2)*%CHOICE|TYPE=Size		TEMPBONUS:ANYPC|VAR|DamageSizeAdjustment|1		TEMPBONUS:ANYPC|COMBAT|DAMAGESIZE|%CHOICE		TEMPVALUE:MIN=1|MAX=2|TITLE=Choose size increase steps.		SOURCELONG:Psionics Unleashed		SOURCESHORT:PsU		SOURCEWEB:http://dreamscarredpress.com/dragonfly/Store/product/pid=69.html		SOURCEDATE:2010-12
